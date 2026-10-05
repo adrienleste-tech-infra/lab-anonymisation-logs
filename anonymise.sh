@@ -9,7 +9,7 @@ if [ ! -f "$REGLES" ]; then
   exit 1
 fi
 
-for NOM in auth zabbix; do
+for NOM in auth zabbix windows; do
   sed -E -f "$REGLES" "logs_bruts/$NOM.log" > "logs_anonymises/${NOM}_anon.log"
   echo "Termine : logs_anonymises/${NOM}_anon.log"
 done

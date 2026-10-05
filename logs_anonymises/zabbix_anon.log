@@ -1,0 +1,10 @@
+2026-09-22 01:03:00 | PROBLEM | Warning | HOST_2 (IP_INT_2) | Zabbix agent is not available (for 3m) | eventid=100201
+2026-09-22 01:09:00 | RESOLVED | Warning | HOST_2 (IP_INT_2) | Zabbix agent is not available (for 3m) | eventid=100202
+2026-09-22 02:11:30 | PROBLEM | High | HOST_1 (IP_INT_4) | More than 20 failed SSH logins in 5m | eventid=100203 | notified=EMAIL_2
+2026-09-22 02:15:00 | PROBLEM | High | HOST_3 (IP_INT_3) | More than 15 failed logons (4625) in 5m | eventid=100204 | notified=EMAIL_2
+2026-09-22 02:34:00 | RESOLVED | High | HOST_3 (IP_INT_3) | More than 15 failed logons (4625) in 5m | eventid=100205
+2026-09-22 02:35:30 | RESOLVED | High | HOST_1 (IP_INT_4) | More than 20 failed SSH logins in 5m | eventid=100206
+2026-09-22 02:40:00 | PROBLEM | Warning | HOST_1 (IP_INT_4) | Load average is too high (5.82 > 4) | eventid=100207
+2026-09-22 02:44:10 | PROBLEM | Average | HOST_3 (IP_INT_3) | Windows: security group membership changed | eventid=100208
+2026-09-22 02:46:30 | RESOLVED | Warning | HOST_1 (IP_INT_4) | Load average is too high (5.82 > 4) | eventid=100209
+2026-09-22 05:12:00 | PROBLEM | Warning | HOST_3 (IP_INT_3) | Free disk space is less than 20% on volume C: | eventid=100210

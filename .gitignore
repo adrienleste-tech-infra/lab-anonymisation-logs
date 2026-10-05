@@ -1,0 +1,2 @@
+*.log
+!logs_anonymises/*.log
